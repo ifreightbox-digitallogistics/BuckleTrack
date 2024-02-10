@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf") format("truetype"),
+url("../fonts/flaticon.woff") format("woff"),
+url("../fonts/flaticon.woff2") format("woff2"),
+url("../fonts/flaticon.eot") format("embedded-opentype"),
+url("../fonts/flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" pbmit-BuckleTrack-icon-"]:before {
+    font-family: "flaticon" !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-BuckleTrack-icon-storage:before {
+    content: "\f101";
+}
+.pbmit-BuckleTrack-icon-delivery-timer:before {
+    content: "\f102";
+}
+.pbmit-BuckleTrack-icon-umbrella:before {
+    content: "\f103";
+}
+.pbmit-BuckleTrack-icon-ocean-transportation:before {
+    content: "\f104";
+}
+.pbmit-BuckleTrack-icon-delivery-in-hand:before {
+    content: "\f105";
+}
+.pbmit-BuckleTrack-icon-worldwide-delivery:before {
+    content: "\f106";
+}
+.pbmit-BuckleTrack-icon-opened-packaged:before {
+    content: "\f107";
+}
+.pbmit-BuckleTrack-icon-call-center:before {
+    content: "\f108";
+}
+.pbmit-BuckleTrack-icon-container-hanging:before {
+    content: "\f109";
+}
+.pbmit-BuckleTrack-icon-air-transport:before {
+    content: "\f10a";
+}
+.pbmit-BuckleTrack-icon-trolley:before {
+    content: "\f10b";
+}
+.pbmit-BuckleTrack-icon-package-on-rolling-transport:before {
+    content: "\f10c";
+}
+.pbmit-BuckleTrack-icon-smartphone-online-track:before {
+    content: "\f10d";
+}
+.pbmit-BuckleTrack-icon-package-3:before {
+    content: "\f10e";
+}
+.pbmit-BuckleTrack-icon-container-hanging-1:before {
+    content: "\f10f";
+}
+.pbmit-BuckleTrack-icon-barcode-scan:before {
+    content: "\f110";
+}
+.pbmit-BuckleTrack-icon-fragile-pack:before {
+    content: "\f111";
+}
+.pbmit-BuckleTrack-icon-delivery-check:before {
+    content: "\f112";
+}
+.pbmit-BuckleTrack-icon-fast-delivery:before {
+    content: "\f113";
+}
+.pbmit-BuckleTrack-icon-delivery-scale:before {
+    content: "\f114";
+}
+.pbmit-BuckleTrack-icon-on-door-delivery:before {
+    content: "\f115";
+}
+.pbmit-BuckleTrack-icon-delivery-search:before {
+    content: "\f116";
+}
+.pbmit-BuckleTrack-icon-train:before {
+    content: "\f117";
+}
+.pbmit-BuckleTrack-icon-truck:before {
+    content: "\f118";
+}
+.pbmit-BuckleTrack-icon-credit-card-1:before {
+    content: "\f119";
+}
+.pbmit-BuckleTrack-icon-credit-card-2:before {
+    content: "\f11a";
+}
+.pbmit-BuckleTrack-icon-planet-earth:before {
+    content: "\f11b";
+}
+.pbmit-BuckleTrack-icon-check:before {
+    content: "\f11c";
+}
+.pbmit-BuckleTrack-icon-call:before {
+    content: "\f11d";
+}
+.pbmit-BuckleTrack-icon-envelope:before {
+    content: "\f11e";
+}
+.pbmit-BuckleTrack-icon-call-1:before {
+    content: "\f11f";
+}
+.pbmit-BuckleTrack-icon-clock:before {
+    content: "\f120";
+}
+.pbmit-BuckleTrack-icon-download:before {
+    content: "\f121";
+}
