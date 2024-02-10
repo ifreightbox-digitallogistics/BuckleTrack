@@ -2085,6 +2085,40 @@ body {
 	.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
 		padding: 40px 0px 40px 30px;
 	}
+	#kukuto2{
+		position: relative;
+		margin-top: 300px;
+	}
+
+	#Kukut1{
+		position: absolute;
+		top: 500px;
+		left: 51px;
+		
+	}
+	#kukuto22{
+		position: relative;
+		margin-top: 300px;
+	}
+
+	#Kukut11{
+		position: absolute;
+		top: 530px;
+		left: 51px;
+		
+	}
+	#kukuto222{
+		position: relative;
+		margin-top: 300px;
+	}
+
+	#Kukut111{
+		position: absolute;
+		top: 450px;
+		left: 51px;
+		
+	}
+
 }
 
 @media (max-width: 1700px) and (min-width: 1550px){
