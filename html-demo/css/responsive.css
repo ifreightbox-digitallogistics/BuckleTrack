@@ -2082,6 +2082,10 @@ body {
 }
 
 @media (max-width: 400px) {
+	.site-header .site-branding img{
+		width: 100%;
+	}
+
 	.pbminfotech-ele-ptable-style-1 .pbmit-pricing-table-box{
 		padding: 40px 0px 40px 30px;
 	}
