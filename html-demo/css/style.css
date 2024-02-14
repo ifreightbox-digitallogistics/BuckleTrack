@@ -22,6 +22,83 @@
 /*  00 - Home
 /*----------------------------------------*/
 /** Homepage 01 **/
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  /* animation: slide 10s linear infinite;  */
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 460px;
+  margin: 20px;
+  padding: 0px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-content {
+  padding: 10px 0;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+/* @keyframes slide {
+	from {
+	  transform: translateX(0);
+	}
+	to {
+	  transform: translateX(-100%);
+	}
+  } */
+
+.site-header .pbmit-header-overlay .pbmit-button-box .pbmit-social-li {
+    margin-right: 25px; 
+}
+
+.pkglog{
+position: absolute;
+top: 600px;
+right: 800px;
+}
+
+.pkglog .pbmit-btn{
+	padding: 50px;
+	border-radius: 25px;
+}
 .marquee_one{
 	padding-top: 65px;
 }

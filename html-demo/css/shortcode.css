@@ -52,7 +52,7 @@
     padding-left: 25px;
 	margin-bottom: 10px;
 }
-.pbmit-heading-subheading .pbmit-subtitle:after{
+/* .pbmit-heading-subheading .pbmit-subtitle:after{
 	content: "*";
     position: absolute;
 	font-size: 46px;
@@ -63,7 +63,7 @@
 	letter-spacing: 0;
 	color: var(--pbmit-secondary-color);
 	font-family: var(--pbmit-body-typography-font-family);
-}
+} */
 .pbmit-heading-subheading .pbmit-title{
 	font-family: var(--pbmit-heading-typography-font-family);
     font-weight: 700;
@@ -1750,7 +1750,7 @@
     color: rgba(0, 0, 0, 1);
 }
 .site-header .pbmit-button-box a:before{
-	content: '\e814';
+	/* content: '\e814'; */
 	margin-top: -14px;
 	font-size: 20px;
 }
