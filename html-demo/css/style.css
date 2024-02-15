@@ -23,6 +23,8 @@
 /*----------------------------------------*/
 /** Homepage 01 **/
 
+
+
 .slider {
   position: relative;
   overflow: hidden;
@@ -72,7 +74,7 @@
   /* display:table;
   margin: 0 auto; */
   margin-left: 143px;
-  margin-top: 16px;
+  margin-top: -33px;
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -103,8 +105,13 @@ top: 600px;
 right: 800px;
 }
 
+.pkglog .pbmit-btn::before{
+	padding-left: 100px;
+}
+
 .pkglog .pbmit-btn{
-	padding: 50px;
+	width: 120%;
+	height: 30%;
 	border-radius: 25px;
 }
 .marquee_one{
