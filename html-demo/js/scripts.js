@@ -307,18 +307,18 @@
     /*-------------------------------------
     Active Hover
     -------------------------------------*/ 
-    $( ".active-onhover .pbmit-miconheading-style-3:nth-child(2)" ).addClass('pbmit-mihbox-hover-active');
+    // $( ".active-onhover .pbmit-miconheading-style-3:nth-child(2)" ).addClass('pbmit-mihbox-hover-active');
     
-      $( ".active-onhover .pbmit-miconheading-style-3" ).mouseover(function() {
-        var main_row = $( this ).closest( '.active-onhover' );
-        $('.pbmit-miconheading-style-3', main_row).removeClass('pbmit-mihbox-hover-active'); 
-        $(this).addClass('pbmit-mihbox-hover-active');
-      }).mouseout(function() {
-        var main_row = $( this ).closest( '.active-onhover' );
-        $('.pbmit-miconheading-style-3', main_row).removeClass('pbmit-mihbox-hover-active');
-        $('.pbmit-miconheading-style-3:nth-child(2)', main_row).addClass('pbmit-mihbox-hover-active');
+    //   $( ".active-onhover .pbmit-miconheading-style-3" ).mouseover(function() {
+    //     var main_row = $( this ).closest( '.active-onhover' );
+    //     $('.pbmit-miconheading-style-3', main_row).removeClass('pbmit-mihbox-hover-active'); 
+    //     $(this).addClass('pbmit-mihbox-hover-active');
+    //   }).mouseout(function() {
+    //     var main_row = $( this ).closest( '.active-onhover' );
+    //     $('.pbmit-miconheading-style-3', main_row).removeClass('pbmit-mihbox-hover-active');
+    //     $('.pbmit-miconheading-style-3:nth-child(2)', main_row).addClass('pbmit-mihbox-hover-active');
        
-    });
+    // });
 
   /*-------------------------------------
     tooltip
