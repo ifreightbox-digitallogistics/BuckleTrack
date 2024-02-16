@@ -278,9 +278,9 @@
 	line-height: 28px;
 }
 .pbmit-ihbox-style-3 .pbmit-ihbox-box {
-	padding: 27px 20px 27px 56px;
+	padding: 27px 20px 27px 151px;
     border-bottom: 1px solid var(--pbmit-global-color);
-    width: 84%;
+    width: 102%;
     position: relative;
 }
 .pbmit-miconheading-style-3:first-child .pbmit-ihbox-box{
@@ -562,9 +562,10 @@
 }
 
 .arrdow{
+	width: 80px;
 	position: absolute;
-	top: 120px;
-	left: -10px;
+	top: 124px;
+	left: -4px;
 }
 
 .pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {

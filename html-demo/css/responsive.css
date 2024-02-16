@@ -2211,6 +2211,57 @@ body {
 		border-radius: 25px;
 	}
 
+
+	.pbmit-ihbox-style-8 .pbmit-element-title{
+		position: absolute;
+		left: -82px;
+		font-size: 25px;
+		line-height: 24px;
+		margin-bottom: 0;
+	}
+	.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text{
+		position: absolute;
+		left: 32px;
+		top: 2px;
+		font-size: 93px;
+		line-height: 106px;
+		font-weight: 700;
+		font-family: var(--pbmit-heading-typography-font-family);
+	}
+	.pbmit-ihbox-style-8 .pbmit-heading-desc {
+		padding: 23px 0 0;
+		
+	}
+	.pbmit-ihbox-style-8 .pbmit-ihbox-contents {
+		padding-top: 90px;
+	}
+	.arrdow{
+		display: none;
+		width: 60px;
+		position: absolute;
+		top: 84px;
+		left: -9px;
+	}
+
+	
+	
+	#num5  {
+		position: absolute;
+		top: 27px;
+	}
+	#num2  {
+		position: absolute;
+		top: 28px;
+	}
+	#num3  {
+		position: absolute;
+		top: 27px;
+	}
+	#num4  {
+		position: absolute;
+		top:27px;
+	}
+
 }
 
 @media (max-width: 1700px) and (min-width: 1550px){
