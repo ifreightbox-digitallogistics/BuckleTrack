@@ -36,8 +36,6 @@
 	
 }
 
-
-
 .section-lgt .carousel-inner .carousel-caption h2{
 	font-size: 100px;
 	font-weight: 550;
@@ -295,15 +293,22 @@ right: 800px;
 		transform: translate(1px, 3px);
 	}
 }
-.testimonial-one_left .pbmit-road{
+
+.testimonial-one_left .minnimap{
+	position: absolute;
+	top: 5800px;
+	right: 1100px;
+}
+
+/* .testimonial-one_left .pbmit-road{
 	position: relative;
     width: 800px;
     height: 51px;
     transform-origin: bottom;
     transform-style: preserve-3d;
     transform: perspective(2000px) rotateX(149deg) rotateY(205deg) rotateZ(199deg);
-}
-.testimonial-one_left .pbmit-road::before {
+} */
+/* .testimonial-one_left .pbmit-road::before {
     content: '';
     position: absolute;
     top: -40%;
@@ -315,7 +320,7 @@ right: 800px;
     background-size: 400px;
     animation: animateroad 5s linear infinite;
     transform: skew(-41deg, 0deg);
-}
+} */
 .testimonial-one_arrow{
 	position: relative;
 }
