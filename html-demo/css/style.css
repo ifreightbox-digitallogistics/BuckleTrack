@@ -24,6 +24,47 @@
 /** Homepage 01 **/
 
 
+.carousel-item img{
+	width: 98%;
+	height: 90vh;
+	margin-left: 19px;
+	object-fit: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 14px;
+
+	
+}
+
+
+
+.section-lgt .carousel-inner .carousel-caption h2{
+	font-size: 100px;
+	font-weight: 550;
+	color: #93c572;
+	margin-bottom: 60px;
+}
+
+.section-lgt .carousel-inner .carousel-caption p{
+	font-size: larger;
+	font-weight: 550;
+	font-family: 'Calibri', sans-serif;
+	margin: 0;
+	color:  hsl(0, 0%, 0%);
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.section-lgt .carousel-inner .carousel-caption input{
+	color: whitesmoke;
+	background-color: #93c572;
+	padding: 5px 11px;
+	border: none;
+	border-radius: 25px;
+}
+
+/* 
 
 .slider {
   position: relative;
@@ -32,7 +73,7 @@
 
 .slides {
   display: flex;
-  /* animation: slide 10s linear infinite;  */
+ 
 }
 
 .card {
@@ -71,8 +112,7 @@
 
 .btn {
 	width: 30%;
-  /* display:table;
-  margin: 0 auto; */
+  
   margin-left: 143px;
   margin-top: -33px;
   padding: 10px 20px;
@@ -85,15 +125,8 @@
 
 .btn:hover {
   background-color: #0056b3;
-}
-/* @keyframes slide {
-	from {
-	  transform: translateX(0);
-	}
-	to {
-	  transform: translateX(-100%);
-	}
-  } */
+} */
+
 
 .site-header .pbmit-header-overlay .pbmit-button-box .pbmit-social-li {
     margin-right: 25px; 

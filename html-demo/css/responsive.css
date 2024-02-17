@@ -1400,6 +1400,50 @@ body {
 }
 
 @media(max-width:767px) {
+
+	/* index slider */
+
+	.carousel-item img{
+		width: 100%;
+		height: 80vh;
+		margin: 60px auto;
+		object-fit: fill;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border-radius: 14px;
+	
+		
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption h2{
+		font-size: 50px;
+		font-weight:bolder;
+		color: #93c572;
+		margin-bottom: 0px;
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption p{
+		font-size: medium;
+		font-weight: 0;
+		font-family: 'Calibri', sans-serif;
+		margin: 0;
+		color:  hsl(0, 0%, 0%);
+		background: rgba(255, 255, 255, 0.7);
+		border-radius: 20px;
+		padding: 5px;
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption input{
+		
+		color: whitesmoke;
+		padding: 5px 11px;
+		border: none;
+		border-radius: 25px;
+	}
+
+
+
+
 	/*=== Revolution ===*/
 	.pbmit-slider-title{
 		line-height:55px !IMPORTANT
@@ -2132,69 +2176,6 @@ body {
 		padding: 0px;
 	}
 
-.slider {
-	position: relative;
-	width: 100%;
-	
-	overflow: hidden;
-  }
-  
-  .slides {
-	display: flex;
-	/* animation: slide 10s linear infinite;  */
-  }
-  
-  .card {
-	flex: 0 0 auto;
-	width: 330px;
-	margin: 0px;
-	padding: 0px;
-	border: 20px solid transparent;
-	border-radius: 5px;
-	/* box-shadow: 0 14px 30px rgba(0, 1, 0, 0.1); */
-  }
-  
-  .card img {
-	width: 100%;
-	height: auto;
-	border-radius: 5px;
-  }
-  
-  .card-content {
-	padding: 0px 0;
-  }
-  
-  .card-content h2 {
-	font-size: 20px;
-	margin: 5px 0;
-	display: flex;
-	justify-content:center ;
-  }
-  
-  .card-content p {
-	font-size: 16px;
-	margin: 5px 0;
-	text-align: center;
-  }
-  
-
-  .btn {
-	  width: 50%;
-	/* display:table;
-	margin: 0 auto; */
-	margin-left: 83px;
-	margin-top: -13px;
-	padding: 10px 20px;
-	background-color: #93c572;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-	background-color: #0056b3;
-  }
   .pkglog{
 	position: absolute;
 	top: 350px;
@@ -2235,6 +2216,9 @@ body {
 	.pbmit-ihbox-style-8 .pbmit-ihbox-contents {
 		padding-top: 90px;
 	}
+
+	/*about us */
+
 	.arrdow{
 		display: none;
 		width: 60px;
@@ -2261,6 +2245,51 @@ body {
 		position: absolute;
 		top:27px;
 	}
+
+
+
+	/* index slider */
+
+	.carousel-item img{
+		width: 100%;
+		height: 50vh;
+		margin: 60px auto;
+		object-fit: fill;
+		background-position: center center;
+		background-repeat: no-repeat;
+		border-radius: 14px;
+	
+		
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption h2{
+		font-size: 30px;
+		font-weight:bolder;
+		color: #93c572;
+		margin-bottom: 0px;
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption p{
+		font-size: small;
+		font-weight: 0;
+		font-family: 'Calibri', sans-serif;
+		margin: 0;
+		color:  hsl(0, 0%, 0%);
+		background: rgba(255, 255, 255, 0.7);
+		border-radius: 20px;
+		padding: 5px;
+	}
+	
+	.section-lgt .carousel-inner .carousel-caption input{
+		
+		color: whitesmoke;
+		padding: 5px 11px;
+		border: none;
+		border-radius: 25px;
+	}
+
+
+
 
 }
 

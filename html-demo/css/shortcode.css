@@ -1883,7 +1883,7 @@
 	background-color: var(--pbmit-blackish-color);
 }
 .site-footer .widget{
-	padding-top: 65px;
+	padding-top: 41px;
     position: relative;
 }
 .site-footer .widget .widget-title{
@@ -1895,7 +1895,7 @@
     color: var(--pbmit-global-color);
     text-transform: capitalize;
     font-style: normal;
-	margin-bottom: 30px;
+	margin-bottom: 6px;
 }
 .site-footer .textwidget ul.pbmit-two-column-menu li{
 	float: left;
@@ -1959,7 +1959,7 @@
     background-attachment: scroll;
 }
 .footer-style-1 .pbmit-footer-widget-area{
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .footer-style-1 .pbmit-footer-big-area .pbmit-title{
 	font-size: 48px;
