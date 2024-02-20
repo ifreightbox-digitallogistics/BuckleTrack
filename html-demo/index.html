@@ -1852,44 +1852,21 @@
       })();
     </script>
     <script>
-document.addEventListener('DOMContentLoaded', function() {
-    var slider = document.querySelector('.slides');
-    if (slider) {
-        var slickOptions = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 2000,
-            arrows: true,
-            responsive: [{
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 400,
-                    settings: {
-                        arrows: false,
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        };
-        if (typeof window.Slick === 'function') {
-            new window.Slick(slider, slickOptions);
-        } else {
-            console.error('Slick is not loaded.');
-        }
-    }
-});
+const slides = document.querySelectorAll('.slides .card');
+  let currentSlide = 0;
+  const slideInterval = 5000; // Change slide every 5 seconds
 
+  const nextSlide = () => {
+    slides[currentSlide].style.display = 'none';
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].style.display = 'block';
+  };
 
+  const startSlider = () => {
+    setInterval(nextSlide, slideInterval);
+  };
+
+  startSlider();
     </script>
     <script>
       window.addEventListener('scroll', function() {
