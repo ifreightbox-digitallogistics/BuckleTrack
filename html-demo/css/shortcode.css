@@ -2204,7 +2204,9 @@
 }
 .pbmit-title-bar-wrapper,
 .pbmit-title-bar-wrapper:before{
-	background-image: url(../images/titlebar-bg.jpg);
+	/* background-image: url(../images/titlebar-bg.jpg); */
+	
+background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

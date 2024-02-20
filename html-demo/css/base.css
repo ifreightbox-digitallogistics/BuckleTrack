@@ -452,8 +452,8 @@ INDEX:
 
 .site-header.sticky {
     position: sticky;
-    padding: 110px 0 ;
-    top: -105px;
+    padding: 130px 0 ;
+    top: -140px;
     border-bottom: 1px solid #dcdcdc5c;
     transition: all .5s ease;
     backdrop-filter: blur(5px);
