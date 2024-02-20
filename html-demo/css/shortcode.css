@@ -2598,14 +2598,14 @@
 .pbmit-slider-area .tparrows.tp-rightarrow:before{
 	line-height:60px !important
 }
-.pbmit-slider-area .tparrows.tp-rightarrow.custom,
+/* .pbmit-slider-area .tparrows.tp-rightarrow.custom,
 .pbmit-slider-area .tparrows.tp-leftarrow.custom{
 	border-radius:50%;
 	width:60px !important; 
 	line-height:60px !important; 
 	height:60px !important; 
 	background-color:var(--pbmit-global-color) !important
-}
+} */
 .pbmit-slider-area .tparrows.tp-rightarrow.custom:hover,
 .pbmit-slider-area .tparrows.tp-leftarrow.custom:hover{
 	background-color:var(--pbmit-secondary-color) !important; 
