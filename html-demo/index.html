@@ -1852,21 +1852,45 @@
       })();
     </script>
     <script>
-const slides = document.querySelectorAll('.slides .card');
-  let currentSlide = 0;
-  const slideInterval = 5000; // Change slide every 5 seconds
+const slider = document.querySelector('.slider');
+const slides = document.querySelector('.slides');
 
-  const nextSlide = () => {
-    slides[currentSlide].style.display = 'none';
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = 'block';
-  };
+const slideWidth = document.querySelector('.card').offsetWidth;
+const totalSlides = document.querySelectorAll('.card').length;
+let currentIndex = 0;
+let intervalId; // Variable to store interval ID
 
-  const startSlider = () => {
-    setInterval(nextSlide, slideInterval);
-  };
+function nextSlide() {
+  currentIndex++;
+  if (currentIndex === totalSlides) {
+    currentIndex = 0;
+  }
+  updateSlider();
+}
 
-  startSlider();
+function updateSlider() {
+  slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+}
+
+// Start automatic sliding
+function startSlider() {
+  intervalId = setInterval(nextSlide, 3000);
+}
+
+// Stop automatic sliding
+function stopSlider() {
+  clearInterval(intervalId);
+}
+
+// Pause slider on mouse hover
+slider.addEventListener('mouseenter', stopSlider);
+
+// Resume slider on mouse leave
+slider.addEventListener('mouseleave', startSlider);
+
+// Start the slider initially
+startSlider();
+
     </script>
     <script>
       window.addEventListener('scroll', function() {

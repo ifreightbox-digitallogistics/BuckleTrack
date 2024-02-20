@@ -65,13 +65,14 @@
 
 
 .slider {
+	
   position: relative;
   overflow: hidden;
 }
 
 .slides {
   display: flex;
- 
+  transition: transform 0.5s ease;
 }
 
 .card {
@@ -104,6 +105,7 @@
 .card-content p {
   font-size: 16px;
   margin: 5px 0;
+  padding: 13px;
   text-align: center;
 }
 
