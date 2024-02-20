@@ -23,6 +23,14 @@
 /*----------------------------------------*/
 /** Homepage 01 **/
 
+.vid-container video{
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -20;
+}
+ 
 
 .carousel-item img{
 	width: 98%;
@@ -62,7 +70,7 @@
 	border-radius: 25px;
 }
 
-/* 
+
 
 .slider {
   position: relative;
@@ -123,7 +131,7 @@
 
 .btn:hover {
   background-color: #0056b3;
-} */
+}
 
 
 .site-header .pbmit-header-overlay .pbmit-button-box .pbmit-social-li {
@@ -146,6 +154,9 @@ right: 800px;
 	border-radius: 25px;
 }
 .marquee_one{
+	padding-top: 65px;
+}
+.topcont{
 	padding-top: 65px;
 }
 .service_one{
@@ -2227,7 +2238,7 @@ aside.widget.widget-tag-cloud a:hover,
 	padding: 12px 45px 12px 30px;
 }
 .contact-form_main .pbmit-btn:hover{
-	background-color: var(--pbmit-blackish-color);
+	background-color: var(--pbmit-secondary-color);
 }
 .iframe_section{
 	padding: 60px 0 100px 0;

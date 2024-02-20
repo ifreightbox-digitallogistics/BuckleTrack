@@ -16,8 +16,8 @@ INDEX:
 @import url('../../css2');
 @import url('../../css2-1');
  :root {
-     --pbmit-global-color: #93C572;
-     --pbmit-secondary-color: #ff5001;
+     --pbmit-global-color: #ff5001;
+     --pbmit-secondary-color: #93C572;
      --pbmit-light-color: #edf7ff;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #000000;
@@ -443,10 +443,23 @@ INDEX:
      display: block;
      width: auto;
 }
+
  .site-header{
      z-index: 999;
      position: relative;
 }
+
+
+.site-header.sticky {
+    position: sticky;
+    padding: 110px 0 ;
+    top: -105px;
+    border-bottom: 1px solid #dcdcdc5c;
+    transition: all .5s ease;
+    backdrop-filter: blur(5px);
+    background: #ffffffbf;
+  }
+  
  .site-header .site-branding img {
      width: 131%;
      height: auto;
