@@ -24,6 +24,9 @@
 /** Homepage 01 **/
 
 
+.namelog{
+	display: none;
+}
 .carousel-item img{
 	width: 98%;
 	height: 90vh;
@@ -72,7 +75,8 @@
 
 .slides {
   display: flex;
-  transition: transform 0.5s ease;
+  animation: 5s slide infinite linear;
+  /* transition: transform 0.5s ease; */
 }
 
 .card {
@@ -136,7 +140,7 @@
 .pkglog{
 position: absolute;
 top: 600px;
-right: 800px;
+left: 300px;
 }
 
 .pkglog .pbmit-btn::before{
@@ -146,7 +150,8 @@ right: 800px;
 .pkglog .pbmit-btn{
 	width: 120%;
 	height: 30%;
-	border-radius: 25px;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .marquee_one{
 	padding-top: 65px;
@@ -202,7 +207,7 @@ right: 800px;
 .about-one_img2{
 	position: absolute;
 	text-align: center;
-    top: -50px;
+    top: 20px;
 	left: 17px;
 }
 .about-one_rightbox{

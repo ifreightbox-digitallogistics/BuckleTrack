@@ -1260,22 +1260,32 @@
 }
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
 	position: absolute;
-    bottom: 40px;
-    left: 40px;
-	padding: 24px 35px 29px;
-    opacity: 0;
+    bottom: 15px;
+    left: 470px;
+	padding: 27px 10px;
+	margin: 0px -235px -6px -152px;
+    opacity: 1;
     word-break: break-word;
-    transform: translateX(-100%);
-    background: var(--pbmit-white-color);
-    transition: all .8s;
+    transform: translateX(-57%);
+    background: rgba(255, 255, 255, 0.75)
+    /* transition: all .8s; */
 }
 .pbmit-portfolio-style-1:hover .pbminfotech-box-content {
-    transition: all .8s;
+    /* transition: all .8s; */
     opacity: 1;
-    transform: translateX(-5%);
+    /* transform: translateX(-5%); */
 }
 .pbmit-portfolio-style-1 .pbmit-port-cat a:hover {
 	color: var(--pbmit-global-color);
+}
+.pbmit-portfolio-style-1 .pbmit-portfolio-title p:hover {
+	color: var(--pbmit-body-typography-color);
+}
+.pbmit-portfolio-style-1 .pbmit-portfolio-title p{
+	
+	font-size: smaller;
+	text-align: -webkit-match-parent;
+	
 }
 .pbmit-portfolio-style-1 .pbmit-port-cat,
 .pbmit-portfolio-style-1 .pbmit-port-cat a {
