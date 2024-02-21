@@ -1283,13 +1283,14 @@
 }
 .pbmit-portfolio-style-1 .pbmit-portfolio-title p{
 	
-	font-size: small;
+	font-size: 18px;
 	text-align: -webkit-match-parent;
 	
 }
 .pbmit-portfolio-style-1 .pbmit-port-cat,
 .pbmit-portfolio-style-1 .pbmit-port-cat a {
 	color: var(--pbmit-global-color);
+	font-weight: bolder;
 }
 .pbmit-ele.pbmit-portfolio-style-1{
 	margin-bottom: 30px;
@@ -2763,7 +2764,7 @@ background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%,
 /*----------------------------------------*/
 /** Style 1 **/
 .pbmit-marquee-effect-style-1 .pbmit-element-title {
-	font-size: 80px;
+	font-size: 40px;
     line-height: 90px !important;
     padding-left: 95px !important;
     margin-left: 50px !important;

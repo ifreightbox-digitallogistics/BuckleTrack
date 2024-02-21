@@ -23,7 +23,12 @@
 /*----------------------------------------*/
 /** Homepage 01 **/
 
-
+.banner img{
+	width: 40%;
+	position: relative;
+	top: 100px;
+	left: 1000px;
+}
 .namelog{
 	display: none;
 }
@@ -138,11 +143,29 @@
 }
 
 .pkglog{
+	display: flex;
+	gap: 10px;
+	width: 500px;
+	height: 50px;
 position: absolute;
 top: 600px;
-left: 300px;
+left: 200px;
+}
+.packbtn2{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 50px;
+	background-color: var(--pbmit-global-color);
+	color: white;
+}
+#bookingnum{
+	width: 100%;
 }
 
+.packbtn2:hover{
+	background-color: var(--pbmit-secondary-color);
+}
 .pkglog .pbmit-btn::before{
 	padding-left: 100px;
 }
@@ -158,6 +181,7 @@ left: 300px;
 }
 .topcont{
 	padding-top: 65px;
+	
 }
 .service_one{
 	overflow: hidden;
