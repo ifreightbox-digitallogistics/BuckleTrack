@@ -2307,7 +2307,7 @@ body {
 
 	}
 	.banner img{
-		width: 358px;
+		width: 448px;
 		height: 410px;
 		position: relative;
 		top: 100px;
@@ -2346,6 +2346,54 @@ body {
 		top: 350px;
 		left: 10px;
 		width: 100px;
+	}
+	/* growth */
+.growth1{
+	height: 450px;
+	
+}
+.vert12{
+	height: 80px;
+	position: relative;
+	
+	padding-left: 20px;
+}
+
+.grwo5 img{
+	width: 50px;
+	position: relative;
+	top: 75px;
+	right: 100px;
+}
+.grew10{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.grw12{
+	padding-bottom: 0px;
+}
+.grw13{
+	padding-bottom: 20px;
+}
+.grwo1{
+	margin-bottom: 20px;
+	
+}
+
+.grew22 h4{
+	color: white;
+}
+
+.grwo5{
+	padding-bottom: 50px;
+	margin-top: -63px;
+}
+
+
+	.grew22{
+		display: flex;
+		flex-direction: column;
+		-ms-flex-order: 5;
 	}
 
 	/* indextopcontEnd */
