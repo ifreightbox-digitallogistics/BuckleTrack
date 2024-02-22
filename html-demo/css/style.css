@@ -23,11 +23,81 @@
 /*----------------------------------------*/
 /** Homepage 01 **/
 
+/* topline */
+.tophead1{
+	position: relative;
+}
+.tophed-title p{
+	line-height: 1;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	font-size: 70px;
+	font-weight: bold;
+	color: black;
+}
+.tophed-para span{
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+}
+.tophedimg img{
+	position: absolute;
+	top: 280px;
+	left: 10px;
+	width: 300px;
+}
+
+/* growth */
+.growth1{
+	height: 450px;
+}
+.vert12{
+	height: 80px;
+	position: relative;
+	
+	padding-left: 20px;
+}
+
+.grwo5 img{
+	width: 50px;
+	position: relative;
+	top: 75px;
+	right: 100px;
+}
+.grew10{
+	margin: 36px -16px 40px -8px;
+}
+.grw12{
+	padding-bottom: 0px;
+}
+.grw13{
+	padding-bottom: 20px;
+}
+.grwo1{
+	padding-left: 100px;
+	
+}
+
+.grew22 h4{
+	color: white;
+}
+.grew22{
+	color: hsl(0, 0%, 97%);
+}
+.grwo5{
+	padding-bottom: 50px;
+	margin-top: -63px;
+}
+
 .banner img{
 	width: 40%;
 	position: relative;
 	top: 100px;
-	left: 1000px;
+	left: 1015px;
 }
 .namelog{
 	display: none;
@@ -151,16 +221,23 @@ position: absolute;
 top: 600px;
 left: 200px;
 }
+
+.pkglog input::-webkit-input-placeholder {
+	text-align: center;
+  }
 .packbtn2{
 	width: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 	height: 50px;
+	border-radius: 50px;
 	background-color: var(--pbmit-global-color);
 	color: white;
 }
+
 #bookingnum{
 	width: 100%;
+	border-radius: 50px;
 }
 
 .packbtn2:hover{
@@ -180,7 +257,8 @@ left: 200px;
 	padding-top: 65px;
 }
 .topcont{
-	padding-top: 65px;
+	padding-top: 24px;
+	height: 846px ;
 	
 }
 .service_one{
@@ -331,8 +409,8 @@ left: 200px;
 
 .testimonial-one_left .minnimap{
 	position: absolute;
-	top: 5800px;
-	right: 1100px;
+	top: 5839px;
+	right: 1000px;
 }
 
 /* .testimonial-one_left .pbmit-road{
