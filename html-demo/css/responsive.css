@@ -2267,11 +2267,11 @@ body {
 	.pkglog{
 		display: flex;
 		gap: 5px;
-		width: 200px;
+		width: 233px;
 		height: 35px;
 	position: absolute;
-	top: 30px;
-	left: 45px;
+	top: 29px;
+	left: 28px;
 	z-index: 1;
 	}
 	.pkglog .pbmit-btn::before{
@@ -2299,8 +2299,9 @@ body {
 	}
 	
 	#bookingnum{
-		width: 200px;
+		width: 240px;
 		border-radius: 50px;
+		align-items: center;
 	}
 	
 	.packbtn2:hover{
