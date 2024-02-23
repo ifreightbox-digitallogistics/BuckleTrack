@@ -2444,7 +2444,10 @@ body {
 	}
 
 	/* indextopcontEnd */
-
+	.section-lgb .pbmit-heading-subheading{
+		margin-bottom: 30px;
+		margin-top: -66px;
+	}
 	/* index slider */
 
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
