@@ -1951,7 +1951,7 @@ body {
 		width: 20px;
 		height: 50px;
 	position: absolute;
-	top: 400px;
+	top: 100px;
 	left: 45px;
 	z-index: 1;
 	}
@@ -2268,9 +2268,9 @@ body {
 		display: flex;
 		gap: 5px;
 		width: 200px;
-		height: 50px;
+		height: 35px;
 	position: absolute;
-	top: 540px;
+	top: 30px;
 	left: 45px;
 	z-index: 1;
 	}
@@ -2286,12 +2286,13 @@ body {
 	}
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
+		padding: 10px;
 	  }
 	.packbtn2{
 		width: 100%;
 		padding-left: 30px;
 		padding-right: 30px;
-		height: 50px;
+		height: 35px;
 		border-radius: 50px;
 		background-color: var(--pbmit-global-color);
 		color: white;
@@ -2313,10 +2314,14 @@ body {
 		top: 100px;
 		left: 15px;
 		z-index: -1;
+		opacity: 0.5;
 	}
 	.topcont{
 		height: 200px;
 
+	}
+	.tophead1{
+		margin-top: 100px;
 	}
 	
 	.tophead1{
@@ -2349,10 +2354,11 @@ body {
 	}
 	/* growth */
 .growth1{
-	height: 450px;
+	height: 600px;
 	
 }
 .vert12{
+	display: none;
 	height: 80px;
 	position: relative;
 	
@@ -2360,10 +2366,10 @@ body {
 }
 
 .grwo5 img{
-	width: 50px;
+	width: 34px;
 	position: relative;
-	top: 75px;
-	right: 100px;
+	top: 140px;
+	right: 97px;
 }
 .grew10{
 	font-size: 20px;
@@ -2376,8 +2382,17 @@ body {
 	padding-bottom: 20px;
 }
 .grwo1{
+	flex-direction: column;
 	margin-bottom: 20px;
 	
+}
+.grwo1 h4{
+	font-size: 10px;
+	line-height: 1;
+}
+.grwo1 p{
+	font-size: 10px;
+	margin-bottom: 0px;
 }
 
 .grew22 h4{
@@ -2385,6 +2400,8 @@ body {
 }
 
 .grwo5{
+	display: flex;
+	flex-direction: column;
 	padding-bottom: 50px;
 	margin-top: -63px;
 }
