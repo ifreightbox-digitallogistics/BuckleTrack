@@ -2471,7 +2471,7 @@ body {
 	}
 	.pbmit-portfolio-style-1 .pbmit-portfolio-title p{
 		
-		font-size: 10px;
+		font-size: 11px;
 		text-align: -webkit-match-parent;
 		
 	}
@@ -2509,7 +2509,10 @@ body {
 	.pbmit-ihbox-style-8 .pbmit-ihbox-contents {
 		padding-top: 90px;
 	}
-
+	.section-lgt .portfolio-one_slider .swiper-wrapper .swiper-slide .img-fluid{
+		max-width: 101%;
+		height: auto;
+	}
 	/*about us */
 	/* .about-one_rightbox,
 	.about_us .about-one_rightbox{
@@ -2625,6 +2628,8 @@ body {
 
 .portfolio_one{
 	margin-top: 100px;
+	width: 425px;
+	margin-left: -18px;
 }
 
 	}
