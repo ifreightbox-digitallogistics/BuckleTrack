@@ -2308,7 +2308,7 @@ body {
 
 	}
 	.banner img{
-		width:350px;
+		width:371px;
 		height: 410px;
 		position: relative;
 		top: 100px;
@@ -2354,8 +2354,13 @@ body {
 	}
 	/* growth */
 .growth1{
-	height: 600px;
 	
+	height: 865px;
+	background: #4ac63f url(../servv/pexels-quintin-gellar-2199293.jpg) no-repeat 30%/cover;
+	background-blend-mode: difference;
+	background-position: inherit;
+	background-repeat: no-repeat ;
+
 }
 .vert12{
 	display: none;
@@ -2365,15 +2370,25 @@ body {
 	padding-left: 20px;
 }
 
+.vr {
+	display: block;
+    position: absolute;
+    width: 2px;
+    min-height: 3em;
+    background-color: currentcolor;
+    opacity: 1.25;
+}
+
 .grwo5 img{
-	width: 34px;
+	width: 27px;
 	position: relative;
-	top: 140px;
-	right: 97px;
+	top: 38px;
+	right: 68px;
 }
 .grew10{
-	font-size: 20px;
-	margin-bottom: 20px;
+	font-size: 32px;
+	
+	margin-bottom: 30px;
 }
 .grw12{
 	padding-bottom: 0px;
@@ -2384,16 +2399,29 @@ body {
 .grwo1{
 	flex-direction: column;
 	margin-bottom: 20px;
+	padding-left: 134px;
 	
 }
 .grwo1 h4{
-	font-size: 10px;
-	line-height: 1;
+	margin-left: 20px;
+	margin-top: -8px;
+	font-size: 23px;
+	inline-size: max-content;
 }
 .grwo1 p{
-	font-size: 10px;
+	font-size: 16px;
 	margin-bottom: 0px;
+	margin-left: 20px;
+	inline-size: max-content;
 }
+
+
+.grew22 .row{
+	margin-right:calc(-42.5 * var(--bs-gutter-x));
+	width: 381px;
+
+}
+
 
 .grew22 h4{
 	color: white;
@@ -2403,7 +2431,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 50px;
-	margin-top: -63px;
+	margin-top: -23px;
 }
 
 
@@ -2411,6 +2439,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		-ms-flex-order: 5;
+	
 	}
 
 	/* indextopcontEnd */
