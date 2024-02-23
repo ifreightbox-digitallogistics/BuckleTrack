@@ -2517,98 +2517,116 @@ body {
 		font-size: 30px;
     line-height: 40px;
     padding-bottom: 363px;
-}
-	}
-
-	.about-one_img2{
-		position: absolute;
-		text-align: center;
-		top: 200px;
-		left: 17px;
-	}
-
-	.arrdow{
-		display: none;
-		width: 60px;
-		position: absolute;
-		top: 84px;
-		left: -9px;
-	}
-
-	
-	
-	#num5  {
-		position: absolute;
-		top: 27px;
-	}
-	#num2  {
-		position: absolute;
-		top: 28px;
-	}
-	#num3  {
-		position: absolute;
-		top: 27px;
-	}
-	#num4  {
-		position: absolute;
-		top:27px;
-	}
-
-
-
-	/* index slider */
-
-	.carousel-item img{
-		width: 100%;
-		height: 50vh;
-		margin: 60px auto;
-		object-fit: fill;
-		background-position: center center;
-		background-repeat: no-repeat;
-		border-radius: 14px;
-	
-		
-	}
-	
-	.section-lgt .carousel-inner .carousel-caption h2{
-		font-size: 30px;
-		font-weight:bolder;
-		color: #93c572;
-		margin-bottom: 0px;
-	}
-	
-	.section-lgt .carousel-inner .carousel-caption p{
-		font-size: small;
-		font-weight: 0;
-		font-family: 'Calibri', sans-serif;
-		margin: 0;
-		color:  hsl(0, 0%, 0%);
-		background: rgba(255, 255, 255, 0.7);
-		border-radius: 20px;
-		padding: 5px;
-	}
-	
-	.section-lgt .carousel-inner .carousel-caption input{
-		
-		color: whitesmoke;
-		padding: 5px 11px;
-		border: none;
-		border-radius: 25px;
-	}
-	.pbmit-marquee-effect-style-1 .pbmit-element-title {
-		font-size: 34px;
-		line-height: 100px !important;
-		padding-left: 33px !important;
-		margin-left: 13px !important;
-	}
-
-	.portfolio_one{
-		margin-top: 100px;
-	}
-
-
 
 }
+
+.about-one_img2{
+	position: absolute;
+	text-align: center;
+	top: 200px;
+	left: 17px;
+}
+
+.arrdow{
+	display: none;
+	width: 60px;
+	position: absolute;
+	top: 84px;
+	left: -9px;
+}
+
+
+
+#num5  {
+	position: absolute;
+	top: 27px;
+}
+#num2  {
+	position: absolute;
+	top: 28px;
+}
+#num3  {
+	position: absolute;
+	top: 27px;
+}
+#num4  {
+	position: absolute;
+	top:27px;
+}
+
+/* minimap */
+.testimonial-one_left .minnimap{
+	position: absolute;
+	top: 8500px;
+	right: 20px;
+}
+.testimonial-one_left .minnimap video{
+	width: 350px;
+}
+.section-lgb .pbmit-heading-subheading .pbmit-subtitle{
+	padding-bottom: 200px
+}
+.section-lgb .pbmit-heading-subheading .pbmit-subtitle {
+	position: relative;
+	top: 180px;
+}
+/* minimapend */
+
+
+
+/* index slider */
+
+.carousel-item img{
+	width: 100%;
+	height: 50vh;
+	margin: 60px auto;
+	object-fit: fill;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 14px;
+
+	
+}
+
+.section-lgt .carousel-inner .carousel-caption h2{
+	font-size: 30px;
+	font-weight:bolder;
+	color: #93c572;
+	margin-bottom: 0px;
+}
+
+.section-lgt .carousel-inner .carousel-caption p{
+	font-size: small;
+	font-weight: 0;
+	font-family: 'Calibri', sans-serif;
+	margin: 0;
+	color:  hsl(0, 0%, 0%);
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.section-lgt .carousel-inner .carousel-caption input{
+	
+	color: whitesmoke;
+	padding: 5px 11px;
+	border: none;
+	border-radius: 25px;
+}
+.pbmit-marquee-effect-style-1 .pbmit-element-title {
+	font-size: 34px;
+	line-height: 100px !important;
+	padding-left: 33px !important;
+	margin-left: 13px !important;
+}
+
+.portfolio_one{
+	margin-top: 100px;
+}
+
+	}
+
+	
 
 @media (max-width: 1700px) and (min-width: 1550px){
 	.pbmit-service-style-3 .pbmit-service-icon-wrapper img, 
