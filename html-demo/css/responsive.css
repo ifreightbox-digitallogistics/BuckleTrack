@@ -2508,15 +2508,22 @@ body {
 	}
 
 	/*about us */
-	.about-one_rightbox,
+	/* .about-one_rightbox,
 	.about_us .about-one_rightbox{
 		padding: 462px 0 0 0;
+	} */
+	
+	.pbmit-heading-subheading .pbmit-title{
+		font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 363px;
+}
 	}
 
 	.about-one_img2{
 		position: absolute;
 		text-align: center;
-		top: 20px;
+		top: 200px;
 		left: 17px;
 	}
 
