@@ -2508,6 +2508,17 @@ body {
 	}
 
 	/*about us */
+	.about-one_rightbox,
+	.about_us .about-one_rightbox{
+		padding: 462px 0 0 0;
+	}
+
+	.about-one_img2{
+		position: absolute;
+		text-align: center;
+		top: 20px;
+		left: 17px;
+	}
 
 	.arrdow{
 		display: none;
