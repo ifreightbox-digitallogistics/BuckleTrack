@@ -27,12 +27,12 @@
 
 
 .topheadfed{
-	animation: fade-up 1.5s;
+	animation: fade-up 1.2s;
 }
 @keyframes fade-up{
 	0%{
 		opacity: 0;
-		transform: translateY(100px) scale(0.9);
+		transform: translateY(-600px) scale(5);
 	}
 	100%{
 		opacity: 1;
@@ -60,23 +60,34 @@
 	font-size: 30px;
 	color: #000000;
 	font-weight: bold;
-	background-color: #fff;
+	
 }
 .tophedimg img{
 	position: absolute;
 	top: 280px;
 	left: 10px;
 	width: 300px;
+	animation: fade-in 2.5s;
+	
 }
-
+@keyframes fade-in {
+	0%{
+		opacity: 0;
+		transform: translateX(-100%) scale(0.9);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0%) scale(1);
+	}
+}
 /* growth */
 .growth1{
 	height: 450px;
-	background: url(../revolution/images/pexels-quintin-gellar-2199293.jpg);
+	background: url(../revolution/images/many-transport.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-blend-mode: multiply;
+	background-blend-mode: darken;
 	
 }
 .growimg1{
@@ -129,8 +140,8 @@
 	width: 41%;
 	position: relative;
 	top: 91px;
-	left: 1098px;
-	animation: slide-in 5s;
+	left: 1103px;
+	animation: slide-in 2s;
 	z-index: -10;
 	
 }
