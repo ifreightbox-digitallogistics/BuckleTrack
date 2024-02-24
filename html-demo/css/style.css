@@ -54,6 +54,15 @@
 /* growth */
 .growth1{
 	height: 450px;
+	background: url(../revolution/images/pexels-quintin-gellar-2199293.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+.growimg1{
+
+	 
 }
 .vert12{
 	height: 80px;
