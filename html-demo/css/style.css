@@ -24,8 +24,32 @@
 /** Homepage 01 **/
 
 /* topline */
-
-
+.fa-envelope-o:before{
+ content: "\f003";
+}
+.float-right {
+    float: right!important;
+	margin-right: 44px;
+    margin-top: -14px;
+}
+.topbar1 .contact-info i:nth-child(1) {
+    color: #d6c62e;
+    padding: 4px;
+}
+.topbar1 .contact-info i:nth-child(2) {
+    color: #19af1b;
+    padding: 4px;
+}
+.topbar1 .contact-info a {
+    line-height: 1;
+    color: #555;
+}
+.topbar1 {
+    background: #fff;
+    padding: 13px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 19px;
+}
 .topheadfed{
 	animation: fade-up 1.2s;
 }
