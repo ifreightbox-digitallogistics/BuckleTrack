@@ -24,6 +24,22 @@
 /** Homepage 01 **/
 
 /* topline */
+
+
+.topheadfed{
+	animation: fade-up 1.5s;
+}
+@keyframes fade-up{
+	0%{
+		opacity: 0;
+		transform: translateY(100px) scale(0.9);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
 .tophead1{
 	position: relative;
 }
@@ -35,6 +51,7 @@
 	font-size: 70px;
 	font-weight: bold;
 	color: black;
+	background-color: #fff;
 }
 .tophed-para span{
 	position: absolute;
@@ -43,6 +60,7 @@
 	font-size: 30px;
 	color: #000000;
 	font-weight: bold;
+	background-color: #fff;
 }
 .tophedimg img{
 	position: absolute;
@@ -112,7 +130,20 @@
 	position: relative;
 	top: 91px;
 	left: 1098px;
+	animation: slide-in 5s;
+	z-index: -10;
+	
 }
+	@keyframes slide-in{
+		0%{
+			opacity: 0;
+			transform: translateX(-100%) scale(0.9);
+		}
+		100%{
+			opacity: 1;
+			transform: translateX(0%) scale(1);
+		}
+	}
 .namelog{
 	display: none;
 }
@@ -234,6 +265,7 @@
 position: absolute;
 top: 600px;
 left: 200px;
+background-color:#fff;
 }
 
 .pkglog input::-webkit-input-placeholder {
@@ -272,7 +304,7 @@ left: 200px;
 }
 .topcont{
 	padding-top: 24px;
-	height: 846px ;
+	height: 878px ;
 	
 }
 .service_one{
