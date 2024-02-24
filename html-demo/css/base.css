@@ -43,7 +43,14 @@ INDEX:
 /*----------------------------------------*/
 /* 00 - General 
 /*----------------------------------------*/
- html {
+.section-lgb{
+    margin-top: -140px;
+}
+
+
+
+
+html {
      font-family: sans-serif;
      -webkit-text-size-adjust: 100%;
      -ms-text-size-adjust: 100%;

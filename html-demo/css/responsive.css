@@ -2344,6 +2344,7 @@ body {
 		left: 10px;
 		font-size: 40px;
 		font-weight: bold;
+		background-color: transparent;
 		color: black;
 	}
 	.tophed-para span{
@@ -2450,6 +2451,15 @@ body {
 		-ms-flex-order: 5;
 	
 	}
+
+	.fid-section_one {
+		padding-bottom: 90px;
+		margin-top: -160px;
+	}
+
+	.section-lgb{
+    margin-top: 180px;
+}
 
 	/* indextopcontEnd */
 	.section-lgb .pbmit-heading-subheading{
