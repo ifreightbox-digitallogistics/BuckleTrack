@@ -655,7 +655,7 @@
 	width: 0%;	
 	height: 100%;
 	left: 0;
-	background: rgba(11, 75, 211, 0.92);
+	background: rgba(255, 117, 0, 0.92)
 }
 .pbmit-team-style-1:hover .pbmit-featured-wrapper::before {
 	width:100%;

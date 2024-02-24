@@ -2182,6 +2182,14 @@ body {
 	.footer-style-2 .pbmit-footer-newsletter{
 		padding-left: 0;
 	}
+	.testimonial-one_left .minnimap{
+		position: absolute;
+		top: 8031px;	
+		right: 20px;
+	}
+	.testimonial-one_left .minnimap video{
+		width: 350px;
+	}
 }
 
 @media (max-width: 485px){
@@ -2563,7 +2571,7 @@ body {
 /* minimap */
 .testimonial-one_left .minnimap{
 	position: absolute;
-	top: 8500px;
+	top: 8626px;	
 	right: 20px;
 }
 .testimonial-one_left .minnimap video{
