@@ -1994,7 +1994,9 @@ body {
 		left: 15px;
 		z-index: -1;
 	}
-	
+	.tophed-title p{
+		background-color: transparent;
+	}
 }
 
 @media(max-width:575px) {
@@ -2657,10 +2659,22 @@ body {
     border-bottom: 1px solid #eee;
     font-size: 15px;
 }
+.float-right {
+	float: right!important;
+	margin-right: 16px;
+	margin-top: -10px;
+}
 /* topbarend */
 
 	}
 
+@media(max-width:300px){
+	.float-right {
+		float: right!important;
+		margin-right: -41px;
+		margin-top: -10px;
+	}
+}
 	
 
 @media (max-width: 1700px) and (min-width: 1550px){
