@@ -22,6 +22,49 @@
 /*  00 - Home
 /*----------------------------------------*/
 /** Homepage 01 **/
+.inbo5{
+	margin-top: 90px;
+}
+
+
+/* index-social */
+/* index-socialend */
+
+/* AboutMe */
+.about-section .about-text h3,h5{
+	font-size: 35px;
+}
+.about-section .about-text{
+	padding-top: 100px;
+}
+.about-section .about-text ul{
+	font-weight: bold;
+}
+.about-section .about-text li{
+	list-style: circle;
+}
+.about-section .about-text h6{
+	font-weight: lighter;
+}
+
+.about-section .btn-bar span{
+		font-weight: bold;
+		padding-right: 10px;
+}
+.about-section .aboutsocio a{
+		padding-right: 15px;
+}
+.about-section .abouthed1{
+	display: flex;
+	justify-content: center;
+	color: var(--pbmit-global-color);
+	
+}
+.about-section .abouthed22{
+	text-align: center;
+	font-size: 40px;
+}
+/* AboutMeEnd */
 
 /* topline */
 .fa-envelope-o:before{
@@ -111,13 +154,15 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-blend-mode: darken;
+	background-blend-mode: normal;
 	
 }
-.growimg1{
 
-	 
+.growth50{
+	margin-top: 373px;
+	margin-bottom: 100px;
 }
+
 .vert12{
 	height: 80px;
 	position: relative;
@@ -163,7 +208,7 @@
 .banner img{
 	width: 41%;
 	position: relative;
-	top: 91px;
+	top: 106px;
 	left: 1103px;
 	animation: slide-in 2s;
 	z-index: -10;
@@ -351,7 +396,7 @@ background-color:#fff;
     margin-bottom: 2px;
 }
 .about-us_one{
-	padding: 210px 0px 155px 0px;
+	padding: 145px 0px 73px 0px;
 	overflow: hidden;
 }
 .about-one_imgbox{
@@ -390,8 +435,9 @@ background-color:#fff;
 .about-one_img2{
 	position: absolute;
 	text-align: center;
-    top: 20px;
+    top: 100px;
 	left: 17px;
+	filter: drop-shadow(0 0 0.75rem rgb(230, 121, 19));
 }
 .about-one_rightbox{
 	padding-left: 60px;
@@ -490,7 +536,7 @@ background-color:#fff;
 
 .testimonial-one_left .minnimap{
 	position: absolute;
-	top: 5836px;
+	top: 5465px;
 	right: 1085px;
 }
 

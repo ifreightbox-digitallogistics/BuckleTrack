@@ -2228,6 +2228,25 @@ body {
 }
 
 @media (max-width: 400px) {
+	/* aboutme */
+	#imgabt5{
+		margin-left: -12px;
+		width: 366px;
+		position: absolute;
+		top: 4361px;
+		left: 161px;
+		margin-left: -100px;
+		width: 263px;
+	}
+	.about-section .abouttophead{
+		margin-top: 300px;
+	}
+	.growth50 {
+		margin-top: 129px;
+		margin-bottom: 100px;
+	}
+	/* aboutmeEnd */
+
 	.site-header .site-branding img{
 		width: 100%;
 	}

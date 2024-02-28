@@ -1794,12 +1794,12 @@
 	color: var(--pbmit-global-color);
 }
 .site-header .pbmit-button-box a:hover{
-	background-color: var(--pbmit-blackish-color);
+	/* background-color: var(--pbmit-secondary-color); */
 }
 
 /** Header Style 1 **/
 .header-style-1 .site-branding img{
-	max-height: 100px;
+	max-height: 126px;
 }
 /** Header Style 2 **/
 .header-style-2 .site-branding .site-title{
@@ -2216,13 +2216,14 @@
 .pbmit-title-bar-wrapper,
 .pbmit-title-bar-wrapper:before{
 	/* background-image: url(../images/titlebar-bg.jpg); */
-	
-background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+	background-image: url(../revolution/images/many-transport.jpg);
+/* background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: scroll;
 	background-color: rgba(255,255,255,0.51);
+	background-blend-mode: color;
 }
 .pbmit-title-bar-wrapper,
 .pbmit-title-bar-content{
