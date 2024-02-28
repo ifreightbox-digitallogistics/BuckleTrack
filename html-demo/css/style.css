@@ -437,8 +437,10 @@ background-color:#fff;
 	text-align: center;
     top: 100px;
 	left: 17px;
-	filter: drop-shadow(0 0 0.75rem rgb(230, 121, 19));
+	
 }
+
+
 .about-one_rightbox{
 	padding-left: 60px;
 }
