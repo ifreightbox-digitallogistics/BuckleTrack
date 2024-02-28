@@ -26,7 +26,9 @@
 	margin-top: 90px;
 }
 
-
+.team_one .pbmit-team-style-1 .pbminfotech-box-content .pbmit-titlebox .pbmit-team-title a{
+	cursor: default;
+}
 /* index-social */
 /* index-socialend */
 
@@ -209,7 +211,7 @@
 	width: 41%;
 	position: relative;
 	top: 106px;
-	left: 1103px;
+	left: 1223px;
 	animation: slide-in 2s;
 	z-index: -10;
 	
@@ -351,6 +353,9 @@ background-color:#fff;
 .pkglog input::-webkit-input-placeholder {
 	text-align: center;
   }
+  .pkglog input{
+	text-align: center;
+  }
 .packbtn2{
 	width: 100%;
 	padding-left: 30px;
@@ -380,7 +385,7 @@ background-color:#fff;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .marquee_one{
-	padding-top: 65px;
+	padding-top: 150px;
 }
 .topcont{
 	padding-top: 24px;
@@ -397,6 +402,10 @@ background-color:#fff;
 }
 .about-us_one{
 	padding: 145px 0px 73px 0px;
+	overflow: hidden;
+}
+#indabt1{
+	padding: 145px 0px 124px 0px;
 	overflow: hidden;
 }
 .about-one_imgbox{
@@ -439,7 +448,13 @@ background-color:#fff;
 	left: 17px;
 	
 }
-
+#indeximg5{
+	position: absolute;
+	text-align: center;
+    top: 39px;
+	left: 17px;
+}
+.about-us_one
 
 .about-one_rightbox{
 	padding-left: 60px;
@@ -538,7 +553,7 @@ background-color:#fff;
 
 .testimonial-one_left .minnimap{
 	position: absolute;
-	top: 5465px;
+	top: 5756px;
 	right: 1085px;
 }
 
