@@ -2533,7 +2533,7 @@ body {
 	/* growth */
 .growth1{
 	
-	height: 865px;
+	height: 900px;
 	background: #4ac63f url(../servv/pexels-quintin-gellar-2199293.jpg) no-repeat 30%/cover;
 	background-blend-mode: multiply;
 	background-position: inherit;
@@ -2558,9 +2558,9 @@ body {
 }
 
 .grwo5 img{
-	width: 27px;
+	width: 42px;
 	position: relative;
-	top: 38px;
+	top: 54px;
 	right: 68px;
 }
 .grew10{
@@ -2707,9 +2707,13 @@ body {
 	
 	.about-one_rightbox .pbmit-heading-subheading .pbmit-title{
 		font-size: 30px;
-    line-height: 40px;
-    padding-bottom: 363px;
+    line-height: 28px;
+    padding-bottom: 334px;
 
+}
+#indabt1{
+	padding: 9px 0px 124px 0px;
+	overflow: hidden;
 }
 
 .about-one_img2{
