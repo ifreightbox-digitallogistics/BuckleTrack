@@ -2394,6 +2394,10 @@ body {
 	}
 	/* aboutmeEnd */
 
+	#sersize span {
+		font-size: 11px;
+	}
+
 	.site-header .site-branding img{
 		width: 100%;
 	}
