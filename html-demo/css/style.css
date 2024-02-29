@@ -29,8 +29,11 @@
 .team_one .pbmit-team-style-1 .pbminfotech-box-content .pbmit-titlebox .pbmit-team-title a{
 	cursor: default;
 }
-/* index-social */
-/* index-socialend */
+/* footertexthover */
+.site-footer .pbmit-footer-widget-area .widget .textwidget a:hover{
+	color: var(--pbmit-global-color)
+}
+/* footertexthoverend */
 
 /* AboutMe */
 .about-section .about-text h3,h5{

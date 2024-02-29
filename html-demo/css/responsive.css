@@ -2543,10 +2543,10 @@ body {
 .growth1{
 	
 	height: 900px;
-	background: #4ac63f url(../servv/pexels-quintin-gellar-2199293.jpg) no-repeat 30%/cover;
-	background-blend-mode: multiply;
-	background-position: inherit;
-	background-repeat: no-repeat ;
+	background: #4ac63f url(../revolution/images/many-transport.jpg) no-repeat 50%/cover;
+
+	background-position: right;
+	background-repeat: round ;
 
 }
 .vert12{
