@@ -142,10 +142,11 @@ body {
 }
 @media(min-width:1200px ) and ( max-width:1400px){
 	.banner img {
-		width: 41%;
+		width: 32%;
 		position: relative;
-		top: 1006px;
-		left: 1004px;
+		top: 116px;
+		left: 898px;
+		height: 620px;
 		animation: slide-in 2s;
 		z-index: -10;
 	}
@@ -2843,8 +2844,263 @@ body {
 	margin-top: -10px;
 }
 /* topbarend */
+}
+
+@media (min-width:600px) and (max-width:700px) {
+	.marquee_one{
+		margin-top: 118px;
+	}
+	.pkglog{
+		display: flex;
+		gap: 10px;
+		width: 500px;
+		height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 45px;
+	z-index: 1;
+	background-color: transparent;
+	margin: 439px -52px 13px -3px;
+	}
+	
+	.pkglog .pbmit-btn::before{
+		padding-left: 100px;
+	}
+	
+	.pkglog .pbmit-btn{
+		width: 120%;
+		height: 30%;
+		border-radius: 5px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+	.pkglog input::-webkit-input-placeholder {
+		text-align: center;
+	  }
+	.packbtn2{
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 50px;
+		border-radius: 50px;
+		background-color: var(--pbmit-global-color);
+		color: white;
+	}
+	#bookingnum {
+		width: 100%;
+		border-radius: 50px;
+	}
+	
+	
+	.packbtn2:hover{
+		background-color: var(--pbmit-secondary-color);
 
 	}
+	.growth1 .container .row .col-4 {
+			flex: 0 0 auto;
+			width: 49.333333%;
+	}
+	.growth1 .container .row {
+		--bs-gutter-x: -3.5rem;
+		--bs-gutter-y: -5rem;
+		display: flex;
+		margin-top: calc(-1* var(--bs-gutter-y));
+		margin-right: calc(1.5* var(--bs-gutter-x));
+		margin-left: calc(-0.5* var(--bs-gutter-x));
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.grwo5 img {
+		width: 34px;
+		position: relative;
+		top: 75px;
+		right: 118px;
+	}
+	.grew22 h4 {
+		color: white;
+		font-size: 20px;
+	}
+	.grew22 .grwo5 p{
+		font-size: 19px;
+	}
+
+	.grew500 {
+		margin-left: -40px;
+	}
+	.abt1hedtitle{
+		margin-top: -120px;
+	}
+	.pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: 680px;
+	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 15px;
+		width: 243px;
+		left: 453px;
+		padding: 0px 0px;
+		margin: 0px -303px -10px -144px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-127%);
+		background: rgba(255, 255, 255, 0.75)
+		/* transition: all .8s; */
+	}
+	.section-lgt .portfolio-one_slider .swiper-wrapper .swiper-slide .img-fluid {
+		max-width: 100%;
+		height: auto;
+	}
+	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+		font-size: 8px;
+		text-align: -webkit-match-parent;
+	}
+	.pbmit-ihbox-style-3 .pbmit-ihbox-box {
+		padding: 27px 20px 27px 151px;
+		border-bottom: 1px solid var(--pbmit-global-color);
+		width: 102%;
+		position: relative;
+	}
+	.pbmit-ihbox-style-3 .pbmit-ihbox-box {
+		display: block !important;
+	}
+	#indeximg5 {
+		position: absolute;
+		text-align: center;
+		top: 112px;
+		left: 81px;
+	}
+	#indabt1 .about-one_rightbox .pbmit-heading-subheading h2{
+		font-size: 30px;
+		display: flex;
+	}
+}
+
+@media (min-width:700px) and (max-width:800px) {
+	.float-right {
+		float: right!important;
+		margin-right: 15px;
+		margin-top: -10px;
+	}
+	.banner img {
+		width: 100%;
+		position: relative;
+		top: 116px;
+		left: 8px;
+		height: 650px;
+		animation: slide-in 2s;
+		z-index: -10;
+	}
+	.marquee_one{
+		margin-top: 400px;
+	}
+	.pkglog{
+		display: flex;
+		gap: 10px;
+		width: 500px;
+		height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 45px;
+	z-index: 1;
+	background-color: transparent;
+	margin: 439px -52px 13px -3px;
+	}
+	
+	.pkglog .pbmit-btn::before{
+		padding-left: 100px;
+	}
+	
+	.pkglog .pbmit-btn{
+		width: 120%;
+		height: 30%;
+		border-radius: 5px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	}
+	.pkglog input::-webkit-input-placeholder {
+		text-align: center;
+	  }
+	.packbtn2{
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 50px;
+		border-radius: 50px;
+		background-color: var(--pbmit-global-color);
+		color: white;
+	}
+	#bookingnum {
+		width: 100%;
+		border-radius: 50px;
+	}
+	
+	
+	.packbtn2:hover{
+		background-color: var(--pbmit-secondary-color);
+
+	}
+	.tophed-title p{
+		background-color: transparent;
+	}
+	.marquee_one {
+		padding-top: 0px;
+	}
+	.topcont {
+		padding-top: 24px;
+		height: 491px;
+	}
+	.growth1 {
+		height: 555px;
+		background: url(../revolution/images/many-transport.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-blend-mode: normal;
+	}
+
+	#indeximg5 {
+		width: 59%;
+		position: absolute;
+		text-align: center;
+		top: 54px;
+		left: 123px;
+	}
+	.pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: 519px;
+	}
+	.abt1hedtitle{
+		margin-top: -141px;
+	}
+	#indabt1 .about-one_rightbox .pbmit-heading-subheading h2{
+		font-size: 30px;
+		display: flex;
+	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 15px;
+		width: 293px;
+		left: 448px;
+		padding: 0px 8px;
+		margin: 0px -303px -10px -144px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-100%);
+		background: rgba(255, 255, 255, 0.75)
+		/* transition: all .8s; */
+	}
+	.section-lgt .portfolio-one_slider .swiper-wrapper .swiper-slide .img-fluid {
+		max-width: 100%;
+		height: auto;
+	}
+	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+		font-size: 10px;
+		text-align: -webkit-match-parent;
+	}
+	.service_one {
+		padding:0px;
+	}
+	
+	
+	
+}
 
 @media(max-width:300px){
 	.float-right {
