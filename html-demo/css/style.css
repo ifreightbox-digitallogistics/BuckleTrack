@@ -212,7 +212,7 @@
 	position: relative;
 	top: 106px;
 	left: 1223px;
-	animation: slide-in 2s;
+	animation: slide-in 1.5s;
 	z-index: -10;
 	
 }

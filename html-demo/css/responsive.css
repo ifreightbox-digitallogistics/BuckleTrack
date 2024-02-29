@@ -14,7 +14,35 @@ body {
         max-width: 1200px;
     }
 }
-@media(width:1400px){
+@media(max-width:1500px){
+	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+		font-size: 13px;
+		text-align: -webkit-match-parent;
+	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 15px;
+		left: 450px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-70%);
+		background: rgba(255, 255, 255, 0.75) /* transition: all .8s; */;
+	}
+	.testimonial-one_left .minnimap {
+		position: absolute;
+		top: 5402px;
+		right: 816px;
+	}
+	.banner img {
+		width: 41%;
+		position: relative;
+		top: 106px;
+		left: 975px;
+		animation: slide-in 1.5s;
+		z-index: -10;
+	}
 	/* topheadsec */
 	/* .float-right {
 		float: right !important;
