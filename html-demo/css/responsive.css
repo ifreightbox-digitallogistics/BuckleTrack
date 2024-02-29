@@ -2408,8 +2408,8 @@ body {
 
 	#Kukut1{
 		position: absolute;
-		top: 500px;
-		left: 51px;
+		top: 465px;
+		left: 23px;
 		
 	}
 	#kukuto22{
@@ -2419,8 +2419,8 @@ body {
 
 	#Kukut11{
 		position: absolute;
-		top: 530px;
-		left: 51px;
+		top: 564px;
+		left: 30px;
 		
 	}
 	#kukuto222{
@@ -2430,9 +2430,14 @@ body {
 
 	#Kukut111{
 		position: absolute;
-		top: 450px;
-		left: 51px;
+		top: 449px;
+		left: 27px;
 		
+	}
+	#Kukut126 {
+		position: absolute;
+		top: 568px;
+		left: 23px;
 	}
 
 
