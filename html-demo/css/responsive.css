@@ -2548,6 +2548,13 @@ display: none;
 }
 
 }
+@media (min-width: 450px) and (max-width: 485px){
+	.testimonial-one_left .minnimap {
+		position: absolute;
+		top: 8106px;
+		right: 70px;
+	}
+}
 
 @media (max-width: 485px){
 	.site-header .pbmit-header-search-btn{
