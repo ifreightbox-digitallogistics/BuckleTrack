@@ -31,9 +31,12 @@ body {
 		background: rgba(255, 255, 255, 0.75) /* transition: all .8s; */;
 	}
 	.testimonial-one_left .minnimap {
-		position: absolute;
-		top: 5402px;
-		right: 816px;
+		display: flex;
+		position: relative;
+		top: auto;
+		right: auto;
+		margin: 0 auto;
+		padding: 0;
 	}
 	.banner img {
 		width: 41%;
@@ -2321,10 +2324,16 @@ body {
 	.footer-style-2 .pbmit-footer-newsletter{
 		padding-left: 0;
 	}
-	.testimonial-one_left .minnimap{
-		position: absolute;
-		top: 8031px;	
-		right: 20px;
+	#sectiontest1{
+		margin-top: -164px;
+	}
+	.testimonial-one_left .minnimap {
+		display: flex;
+		position: relative;
+		top: auto;
+		right: auto;
+		margin: 0 auto;
+		padding: 0;
 	}
 	.testimonial-one_left .minnimap video{
 		width: 350px;
@@ -2460,10 +2469,16 @@ body {
 	margin-top: 197px;
 	padding-bottom: 0px;
 }
+#sectiontest1{
+	margin-top: -164px;
+}
 .testimonial-one_left .minnimap {
-    position: absolute;
-    top: 7826px;
-    right: 20px;
+	display: flex;
+	position: relative;
+	top: auto;
+	right: auto;
+	margin: 0 auto;
+	padding: 0;
 }
 }
 @media (min-width: 500px) and (max-width:600px){
@@ -2550,9 +2565,12 @@ display: none;
 }
 @media (min-width: 450px) and (max-width: 485px){
 	.testimonial-one_left .minnimap {
-		position: absolute;
-		top: 8106px;
-		right: 70px;
+		display: flex;
+		position: relative;
+		top: auto;
+		right: auto;
+		margin: 0 auto;
+		padding: 0;
 	}
 }
 
@@ -2861,7 +2879,7 @@ display: none;
 	
 	}
 	.section-lgb{
-    margin-top: 180px;
+    margin-top: 0px;
 }
 
 	/* indextopcontEnd */
@@ -2986,11 +3004,17 @@ display: none;
 }
 
 /* minimap */
-.testimonial-one_left .minnimap{
-	position: absolute;
-	top: 8126px;	
-	right: 20px;
+#sectiontest1{
+	margin-top: -164px;
 }
+.testimonial-one_left .minnimap {
+		display: flex;
+		position: relative;
+		top: auto;
+		right: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
 .testimonial-one_left .minnimap video{
 	width: 350px;
 }
