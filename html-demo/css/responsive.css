@@ -153,6 +153,20 @@ body {
 		animation: slide-in 2s;
 		z-index: -10;
 	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8::after {
+		content: "";
+		position: absolute;
+		left: 268px;
+		top: 52%;
+		width: 123px;
+		height: 40px;
+		margin-top: -20px;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+		margin-left: 110px;
+		padding: 0px 13% 0px 36%;
+		position: relative;
+	}
 }
 
 @media (max-width: 1400px){
@@ -2437,13 +2451,12 @@ body {
 	margin-top: -10px;
 	font-size: 15px;
 }
-
-#indabt1 .about-one_rightbox .pbmit-heading-subheading h2{
-	font-size: 30px;
-	display: flex;
+.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+		margin-top: 450px;
 }
+
 .abt1hedtitle{
-	margin-top: -120px;
+	margin-top: -150px;
 }
 
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
@@ -2595,6 +2608,9 @@ display: none;
 	top: auto;
 	left: auto;
 	
+}
+.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+	margin-top: 530px;
 }
 .pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
 	margin-left: -66px;
@@ -3225,8 +3241,8 @@ display: none;
 	.growth1 {
 		height: 553px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 874px;
+	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: 944px;
 	}
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
 		position: absolute;
@@ -3275,7 +3291,21 @@ display: none;
 	background-color: transparent;
 	margin: 439px -52px 13px -3px;
 	}
-
+	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+		margin-top: 960px;
+}
+.abt1hedtitle{
+	margin-top: -120px;
+}
+.aboutconts .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc {
+	margin-top: 4px;
+}
+#five_img{
+	position: relative;
+		text-align: center;
+		top: auto;
+		left: auto;
+}
 }
 @media (min-width:800px) and (max-width:900px){
 	.abt1hedtitle{
@@ -3327,8 +3357,8 @@ display: none;
 	.growth1 {
 		height: 553px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 834px;
+	.aboutconts .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: 4px;
 	}
 }
 
@@ -3415,6 +3445,9 @@ display: none;
 	.abt1hedtitle{
 		margin-top: -120px;
 	}
+	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+		margin-top: 600px;
+}
 	
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
 		position: absolute;
@@ -3626,6 +3659,9 @@ display: none;
 		left: 150px;
 		top: 42%;
 	}
+	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+		margin-top: 550px;
+}
 	
 }
 
@@ -3700,6 +3736,7 @@ display: none;
 	.pbmit-team-style-1 .pbminfotech-box-content .pbmit-titlebox{
 		padding: 25px 25px;
 	}
+
 }
 
 @media (max-width: 1200px) and (min-width: 992px){
