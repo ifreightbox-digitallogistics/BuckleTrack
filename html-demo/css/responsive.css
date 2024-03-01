@@ -3360,6 +3360,9 @@ display: none;
 	.aboutconts .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc {
 		margin-top: 4px;
 	}
+	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
+		margin-top: 780px;
+}
 }
 
 @media (min-width:600px) and (max-width:700px) {
