@@ -2509,6 +2509,7 @@ body {
 		margin-top: -137px;
 		margin-bottom: 100px;
 	}
+	
 }
 @media (min-width: 500px) and (max-width:600px){
 	.pkglog{
@@ -3080,7 +3081,11 @@ display: none;
 /* minimapend */
 
 
-
+.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+	margin-left: -117px;
+	padding: 0px 0% 0px 39%;
+	position: relative;
+}
 /* index slider */
 
 .carousel-item img{
