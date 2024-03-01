@@ -2330,6 +2330,149 @@ body {
 		width: 350px;
 	}
 }
+@media (min-width:400px) and (max-width:500px){
+	.pkglog{
+		display: flex;
+		gap: 10px;
+		width: 600px;
+		height: 50px;
+	position: absolute;
+	top: 100px;
+	left: 75px;
+	z-index: 1;
+	background-color: transparent;
+	margin: 439px -52px 13px -3px;
+	}
+	.pkglog input::-webkit-input-placeholder {
+		text-align: center;
+	  }
+	  .pkglog input{
+		text-align: center;
+	  }
+	  .marquee_one{
+		margin-top: 150px;
+	}
+	.growth1 .container .row {
+		--bs-gutter-x: -1.5rem;
+		--bs-gutter-y: -5rem;
+		display: flex;
+		margin-top: calc(-1* var(--bs-gutter-y));
+		margin-right: calc(1.5* var(--bs-gutter-x));
+		margin-left: calc(-0.5* var(--bs-gutter-x));
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.growth1 .container .row .col-4 {
+		flex: 0 0 auto;
+		width: 63.333333%;
+}
+.grwo5 img {
+	width: 34px;
+	position: relative;
+	top: 75px;
+	right: 118px;
+}
+.grew10{
+	font-size: 32px;
+	
+	margin-bottom: 30px;
+}
+.grwo1{
+	flex-direction: column;
+	margin-bottom: 20px;
+	padding-left: 134px;
+	
+}
+.growth1{
+	height: 700px;
+}
+
+.grwo1 h4{
+	margin-left: 20px;
+	margin-top: -8px;
+	font-size: 23px;
+	inline-size: max-content;
+}
+.grwo1 p{
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	inline-size: max-content;
+}
+.grew22 .row{
+	margin-right:calc(-42.5 * var(--bs-gutter-x));
+	width: 444px;
+
+}
+.grwo5{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	margin-top: -23px;
+}
+.grew22{
+	display: flex;
+	flex-direction: column;
+	-ms-flex-order: 5;
+
+}
+.grew22{
+	display: flex;
+	flex-direction: column;
+	-ms-flex-order: 5;
+
+}
+.float-right {
+	float: right!important;
+	margin-right: 33px;
+	margin-top: -10px;
+	font-size: 15px;
+}
+#indeximg5 {
+	position: absolute;
+	text-align: center;
+	top: 112px;
+	left: 21px;
+}
+#indabt1 .about-one_rightbox .pbmit-heading-subheading h2{
+	font-size: 30px;
+	display: flex;
+}
+.abt1hedtitle{
+	margin-top: -120px;
+}
+.pbmit-heading-subheading .pbmit-heading_desc {
+	margin-top: 450px;
+}
+.pbmit-portfolio-style-1 .pbminfotech-box-content {
+	position: absolute;
+	bottom: 15px;
+	width: 308px;
+	left: 453px;
+	padding: 0px 0px;
+	margin: 0px -303px -10px -144px;
+	opacity: 1;
+	word-break: break-word;
+	transform: translateX(-99%);
+	background: rgba(255, 255, 255, 0.75)
+	/* transition: all .8s; */
+}
+.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+    font-size: 10px;
+    text-align: -webkit-match-parent;
+}
+.section-lgb{
+	margin-top: 197px;
+	padding-bottom: 0px;
+}
+.testimonial-one_left .minnimap {
+    position: absolute;
+    top: 7826px;
+    right: 20px;
+}
+
+
+}
 
 @media (max-width: 485px){
 	.site-header .pbmit-header-search-btn{
@@ -2629,11 +2772,12 @@ body {
 	
 	}
 
-	.fid-section_one {
-		padding-bottom: 90px;
-		margin-top: -160px;
+	.grew22{
+		display: flex;
+		flex-direction: column;
+		-ms-flex-order: 5;
+	
 	}
-
 	.section-lgb{
     margin-top: 180px;
 }
