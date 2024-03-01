@@ -2445,9 +2445,7 @@ body {
 .abt1hedtitle{
 	margin-top: -120px;
 }
-.pbmit-heading-subheading .pbmit-heading_desc {
-	margin-top: 450px;
-}
+
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
 	position: absolute;
 	bottom: 15px;
@@ -2480,6 +2478,37 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+.about-one_img2{
+	position: relative;
+	text-align: center;
+	top: auto;
+	left: auto;
+	
+}
+.process-section_three .container .pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text {
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 150px;
+    line-height: initial;
+    font-weight: bold;
+    font-family: var(--pbmit-heading-typography-font-family);
+}
+	#imgabt5{
+		
+		position: relative;
+		top: -1200px;
+		left: auto;
+		margin:0 auto;
+		width: 200px;
+	}
+	.about-section .abouttophead{
+		margin-top: 300px;
+	}
+	.growth50 {
+		margin-top: -137px;
+		margin-bottom: 100px;
+	}
 }
 @media (min-width: 500px) and (max-width:600px){
 	.pkglog{
@@ -2538,9 +2567,7 @@ body {
 .abt1hedtitle{
 	margin-top: -120px;
 }
-.pbmit-heading-subheading .pbmit-heading_desc {
-	margin-top: 550px;
-}
+
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
 	position: absolute;
 	bottom: 15px;
@@ -2561,6 +2588,34 @@ body {
 .testimonial-one_left .minnimap {
 display: none;
 }
+.about-one_img2{
+	position: relative;
+	text-align: center;
+	top: auto;
+	left: auto;
+	
+}
+.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+	margin-left: -66px;
+	padding: 0px 0% 0px 39%;
+	position: relative;
+}
+.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {
+	left: 150px;
+	top: 42%;
+}
+.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after{
+	display: none;
+}
+#imgabt5 {
+    margin-left: -15px;
+    width: 494px;
+}
+.growth50 {
+    margin-top: 116px;
+    margin-bottom: 100px;
+}
+
 
 }
 @media (min-width: 450px) and (max-width: 485px){
@@ -2621,13 +2676,12 @@ display: none;
 	/* indexaboutsecEnd */
 	/* aboutme */
 	#imgabt5{
-		margin-left: -12px;	
-		width: 366px;
-		position: absolute;
-		top: 4453px;
-		left: 149px;
-		margin-left: -100px;
-		width: 263px;
+		
+		position: relative;
+		top: -1300px;
+		left: auto;
+		margin:0 auto;
+		width: 200px;
 	}
 	.about-section .abouttophead{
 		margin-top: 300px;
@@ -2925,14 +2979,14 @@ display: none;
 	}
 	/* index slider end */
 
-	.pbmit-ihbox-style-8 .pbmit-element-title{
-		position: absolute;
-		left: -82px;
+	.process-section_three .pbmit-ihbox-style-8 .pbmit-element-title{
+		position: relative;
+		left: auto;
 		font-size: 25px;
 		line-height: 24px;
 		margin-bottom: 0;
 	}
-	.pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text{
+	.process-section_three .pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text{
 		position: absolute;
 		left: 32px;
 		top: 2px;
@@ -2945,9 +2999,7 @@ display: none;
 		padding: 23px 0 0;
 		
 	}
-	.pbmit-ihbox-style-8 .pbmit-ihbox-contents {
-		padding-top: 90px;
-	}
+	
 	.section-lgt .portfolio-one_slider .swiper-wrapper .swiper-slide .img-fluid{
 		max-width: 101%;
 		height: auto;
@@ -2979,9 +3031,9 @@ display: none;
 .arrdow{
 	display: none;
 	width: 60px;
-	position: absolute;
-	top: 84px;
-	left: -9px;
+	position: relative;
+	top: auto;
+	left: auto;
 }
 
 
@@ -3093,22 +3145,75 @@ display: none;
 	margin-right: 16px;
 	margin-top: -10px;
 }
+.process-section_three .container #aboutprocess{
+	display: flex;
+	flex-direction: column;
+}
+.process-section_three .container .pbmit-col-stretched-right .abtpronum{
+	/* display: flex; */
+}
+.process-section_three .container .pbmit-ihbox-style-8 .pbmit-ihbox-icon-type-text {
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 150px;
+    line-height: initial;
+    font-weight: bold;
+    font-family: var(--pbmit-heading-typography-font-family);
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-contents {
+	padding-top: 0px;
+}
+.pbmit-ihbox-style-8 .pbmit-ihbox-contents .abtmar1{
+	padding-top: 180px;
+}
+
+
 /* topbarend */
 }
 @media (min-width:900px) and (max-width:1000px){
 	.abt1hedtitle{
 		margin-top: -161px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 919px;
+	
+	.about-one_img2{
+		position: relative;
+		text-align: center;
+		top: auto;
+		left: auto;
+		
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+		margin-left: 91px;
+		padding: 0px 17% 0px 36%;
+		position: relative;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {
+		left: 150px;
+		top: 47%;
 	}
 }
 @media (min-width:800px) and (max-width:900px){
 	.abt1hedtitle{
 		margin-top: -161px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 919px;
+
+	.about-one_img2{
+		position: relative;
+		text-align: center;
+		top: auto;
+		left: auto;
+		
+	}
+	
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+		margin-left: 91px;
+		padding: 0px 17% 0px 36%;
+		position: relative;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {
+		left: 150px;
+		top: 47%;
 	}
 }
 
@@ -3195,9 +3300,7 @@ display: none;
 	.abt1hedtitle{
 		margin-top: -120px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 680px;
-	}
+	
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
 		position: absolute;
 		bottom: 15px;
@@ -3245,7 +3348,30 @@ display: none;
 	.service_one {
 		padding-top: 71px;
 	}
-	
+	.about-one_img2{
+		position: relative;
+		text-align: center;
+		top: auto;
+		left: auto;
+		
+	}
+	.growth50 {
+		margin-top: 116px;
+		margin-bottom: 100px;
+	}
+	#imgabt5 {
+		margin-left: -15px;
+		width: 494px;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+		margin-left: 17px;
+		padding: 0px 0% 0px 49%;
+		position: relative;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {
+		left: 150px;
+		top: 47%;
+	}
 }
 
 @media (min-width:700px) and (max-width:800px) {
@@ -3337,9 +3463,7 @@ display: none;
 		top: 54px;
 		left: 123px;
 	}
-	.pbmit-heading-subheading .pbmit-heading_desc {
-		margin-top: 519px;
-	}
+	
 	.abt1hedtitle{
 		margin-top: -141px;
 	}
@@ -3371,8 +3495,22 @@ display: none;
 	.service_one {
 		padding:0px;
 	}
-	
-	
+	.about-one_img2{
+		position: relative;
+		text-align: center;
+		top: auto;
+		left: auto;
+		
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8 {
+		margin-left: 38px;
+		padding: 0px 0% 0px 42%;
+		position: relative;
+	}
+	.pbmit-miconheading-style-8 .pbmit-ihbox-style-8:after {
+		left: 150px;
+		top: 42%;
+	}
 	
 }
 
