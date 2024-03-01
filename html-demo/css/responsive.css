@@ -3220,6 +3220,37 @@ display: none;
 		left: 150px;
 		top: 47%;
 	}
+	.banner img {
+		width: 100%;
+		position: relative;
+		top: 116px;
+		left: 8px;
+		height: 650px;
+		animation: slide-in 2s;
+		z-index: -10;
+	}
+	.pkglog{
+		display: flex;
+		gap: 10px;
+		width: 500px;
+		height: 50px;
+	position: absolute;
+	top: 229px;
+	left: 125px;
+	z-index: 1;
+	background-color: transparent;
+	margin: 439px -52px 13px -3px;
+	}
+	.tophed-title p{
+		color: hsla(0, 0%, 0%, 0.912);
+		background-color: transparent;
+	}
+	.growth1 {
+		height: 553px;
+	}
+	.pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: 834px;
+	}
 }
 
 @media (min-width:600px) and (max-width:700px) {
