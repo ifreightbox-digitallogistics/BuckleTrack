@@ -3363,6 +3363,27 @@ display: none;
 	.indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
 		margin-top: 780px;
 }
+.pbmit-portfolio-style-1 .pbminfotech-box-content {
+	position: absolute;
+	bottom: 15px;
+	width: 235px;
+	left: 417px;
+	padding: 0px 0px;
+	margin: 0px -303px -10px -180px;
+	opacity: 1;
+	word-break: break-word;
+	transform: translateX(-100%);
+	background: rgba(255, 255, 255, 0.75)
+	/* transition: all
+	 .8s; */
+}
+.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+	font-size: 10px;
+	text-align: -webkit-match-parent;
+}
+.pbmit-portfolio-style-1 .pbminfotech-box-content .pbminfotech-titlebox a{
+	font-size: 12px;
+}
 }
 
 @media (min-width:600px) and (max-width:700px) {
