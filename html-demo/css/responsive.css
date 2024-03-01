@@ -3207,7 +3207,7 @@ display: none;
 		margin: 0px -303px -10px -144px;
 		opacity: 1;
 		word-break: break-word;
-		transform: translateX(-127%);
+		transform: translateX(-126%);
 		background: rgba(255, 255, 255, 0.75)
 		/* transition: all .8s; */
 	}
@@ -3237,6 +3237,13 @@ display: none;
 	#indabt1 .about-one_rightbox .pbmit-heading-subheading h2{
 		font-size: 30px;
 		display: flex;
+	}
+	#mainslid{
+		display: flex;
+		gap: 0.3rem;
+	}
+	.service_one {
+		padding-top: 71px;
 	}
 	
 }
