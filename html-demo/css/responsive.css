@@ -2358,15 +2358,13 @@ body {
 @media (min-width:400px) and (max-width:500px){
 	.pkglog{
 		display: flex;
-		gap: 10px;
-		width: 90%;
-		height: auto;
-	position: relative;
-	left: 9px;
-	top: 490px;
+		gap: 5px;
+		width: 252px;
+		height: 35px;
+	position: absolute;
+	top: 29px;
+	left: 28px;
 	z-index: 1;
-	background-color: transparent;
-	margin: 0 auto;
 	}
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
@@ -2375,7 +2373,7 @@ body {
 		text-align: center;
 	  }
 	  .marquee_one{
-		margin-top: 204px;
+		margin-top: 117px;
 	}
 	.growth1 .container .row {
 		--bs-gutter-x: -1.5rem;
@@ -2529,31 +2527,54 @@ body {
 		border-radius: 50px;
 	}
 	.banner img{
-		width: 65%;
+		width:411px;
+		height: 410px;
 		position: relative;
-		top: 102px;
-		left: 155px;
+		top: 100px;
+		left: 15px;
 		z-index: -1;
+		opacity: 0.5;
 	}
 	.tophed-title p{
-		background-color: transparent;
-		font-size: 54px;
-		font-weight: 500;
-	}
-	.tophed-para span {
+		line-height: 1;
 		position: absolute;
-		top: 280px;
-		left: 184px;
-		font-size: 16px;
+		top: 250px;
+		left: 10px;
+		font-size: 40px;
+		font-weight: bold;
+		background-color: transparent;
+		color: black;
+	}
+	.tophed-para span{
+		position: absolute;
+		top: 350px;
+		left: 100px;
+		font-size: 20px;
 		color: #000000;
 		font-weight: bold;
+		line-height: 0.8;
 	}
-	.tophedimg img {
+	.tophedimg img{
 		position: absolute;
-		top: 260px;
-		left: -9px;
-		width: 197px;
-		animation: fade-in 2.5s;
+		top: 350px;
+		left: 10px;
+		width: 100px;
+	}
+	.tophead1 {
+		margin-top: 100px;
+	}
+	#bookingnum {
+		width: 281px;
+		border-radius: 50px;
+	}
+	.packbtn2{
+		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 35px;
+		border-radius: 50px;
+		background-color: var(--pbmit-global-color);
+		color: white;
 	}
 	
 }
