@@ -556,9 +556,9 @@ background-color:#fff;
 }
 
 .testimonial-one_left .minnimap{
-	position: absolute;
-	top: 5756px;
-	right: 1085px;
+	position: relative;
+	top: auto;
+	right: auto;
 }
 
 /* .testimonial-one_left .pbmit-road{

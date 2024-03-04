@@ -2135,65 +2135,10 @@ body {
 		position: relative;
 		
 	}
-	.tophed-title p{
-		line-height: 1;
-		position: absolute;
-		top: 250px;
-		left: 10px;
-		font-size: 40px;
-		font-weight: bold;
-		color: black;
-	}
-	.tophed-para span{
-		position: absolute;
-		top: 350px;
-		left: 100px;
-		font-size: 20px;
-		color: #000000;
-		font-weight: bold;
-		line-height: 0.8;
-	}
-	.tophedimg img{
-		position: absolute;
-		top: 350px;
-		left: 10px;
-		width: 100px;
-	}
-	.marquee_one{
-		margin-top: 400px;
-	}
-	.pkglog{
-		display: grid;
-		gap: 5px;
-		width: 20px;
-		height: 50px;
-	position: absolute;
-	top: 100px;
-	left: 45px;
-	z-index: 1;
-	}
-	.pkglog .pbmit-btn::before{
-		padding-left: 100px;
-	}
+
 	
-	.pkglog .pbmit-btn{
-		width: 120%;
-		height: 30%;
-		border-radius: 5px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-	}
-	.pkglog input::-webkit-input-placeholder {
-		text-align: center;
-	  }
-	.packbtn2{
-		width: 100%;
-		padding-left: 30px;
-		padding-right: 30px;
-		height: 50px;
-		border-radius: 50px;
-		background-color: var(--pbmit-global-color);
-		color: white;
-	}
+
+
 	
 	#bookingnum{
 		width: 200px;
@@ -2591,14 +2536,14 @@ body {
 	.pkglog{
 		display: flex;
 		gap: 10px;
-		width: 600px;
-		height: 50px;
-	position: absolute;
-	top: 100px;
-	left: 75px;
+		width: 74%;
+		height: auto;
+	position: relative;
+	left: auto;
+	top: 639px;
 	z-index: 1;
 	background-color: transparent;
-	margin: 439px -52px 13px -3px;
+	margin: 0 auto;
 	}
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
@@ -3374,6 +3319,9 @@ display: none;
 	.abt1hedtitle{
 		margin-top: -161px;
 	}
+	.marquee_one{
+		margin-top: -140px;
+	}
 
 	.about-one_img2{
 		position: relative;
@@ -3393,11 +3341,11 @@ display: none;
 		top: 47%;
 	}
 	.banner img {
-		width: 100%;
+		width: 60%;
 		position: relative;
-		top: 116px;
-		left: 8px;
-		height: 650px;
+		top: 143px;
+		left: 322px;
+	
 		animation: slide-in 2s;
 		z-index: -10;
 	}
@@ -3416,7 +3364,25 @@ display: none;
 	.tophed-title p{
 		color: hsla(0, 0%, 0%, 0.912);
 		background-color: transparent;
+		font-size: 54px;
+		font-weight: 500;
 	}
+	.tophed-para span {
+		position: absolute;
+		top: 300px;
+		left: 300px;
+		font-size: 28px;
+		color: #000000;
+		font-weight: bold;
+	}
+	.tophedimg img {
+		position: absolute;
+		top: 261px;
+		left: 10px;
+		width: 278px;
+		animation: fade-in 2.5s;
+	}
+	
 	.growth1 {
 		height: 553px;
 	}
@@ -3434,6 +3400,7 @@ display: none;
 	padding: 0px 0px;
 	margin: 0px -303px -10px -180px;
 	opacity: 1;
+	line-height: 0.5;
 	word-break: break-word;
 	transform: translateX(-100%);
 	background: rgba(255, 255, 255, 0.75)
@@ -3451,21 +3418,52 @@ display: none;
 
 @media (min-width:600px) and (max-width:700px) {
 	.marquee_one{
-		margin-top: 118px;
+		padding-top: 231px;
+		margin-bottom: -62px;
 	}
 	.pkglog{
 		display: flex;
 		gap: 10px;
-		width: 500px;
+		width: 70%;
 		height: 50px;
-	position: absolute;
-	top: 100px;
-	left: 45px;
+	position: relative;
+	top: 566px;
+	left: auto;
 	z-index: 1;
 	background-color: transparent;
-	margin: 439px -52px 13px -3px;
+	margin: 0 auto;
 	}
-	
+
+	.banner img {
+		width: 57%;
+		position: relative;
+		top: 110px;
+		left: 271px;
+
+		animation: slide-in 2s;
+		z-index: -10;
+	}
+	.tophed-title p{
+		background-color: transparent;
+		font-size: 71px;
+		font-weight: 500;
+		
+	}
+	.tophedimg img {
+		position: absolute;
+		top: 261px;
+		left: 10px;
+		width: 278px;
+		animation: fade-in 2.5s;
+	}
+	.tophed-para span {
+		position: absolute;
+		top: 300px;
+		left: 300px;
+		font-size: 18px;
+		color: #000000;
+		font-weight: bold;
+	}
 	.pkglog .pbmit-btn::before{
 		padding-left: 100px;
 	}
@@ -3480,13 +3478,16 @@ display: none;
 		text-align: center;
 	  }
 	.packbtn2{
-		width: 100%;
+		width: 32%;
 		padding-left: 30px;
 		padding-right: 30px;
 		height: 50px;
 		border-radius: 50px;
 		background-color: var(--pbmit-global-color);
 		color: white;
+		position: relative;
+		top: auto;
+		left: auto;
 	}
 	#bookingnum {
 		width: 100%;
@@ -3544,10 +3545,14 @@ display: none;
 		padding: 0px 0px;
 		margin: 0px -303px -10px -144px;
 		opacity: 1;
+		line-height: 0.5;
 		word-break: break-word;
-		transform: translateX(-126%);
+		transform: translateX(-123%);
 		background: rgba(255, 255, 255, 0.75)
 		/* transition: all .8s; */
+	}
+	.pbmit-portfolio-style-1 .pbmit-port-cat a{
+		font-size: 14px;
 	}
 	.section-lgt .portfolio-one_slider .swiper-wrapper .swiper-slide .img-fluid {
 		max-width: 100%;
@@ -3616,28 +3621,29 @@ display: none;
 		margin-top: -10px;
 	}
 	.banner img {
-		width: 100%;
+		width: 60%;
 		position: relative;
-		top: 116px;
-		left: 8px;
+		top: 94px;
+		left: 313px;
 		height: 650px;
 		animation: slide-in 2s;
 		z-index: -10;
 	}
 	.marquee_one{
-		margin-top: 400px;
+		padding-top: 340px;
+		padding-bottom: 14px;
 	}
 	.pkglog{
 		display: flex;
 		gap: 10px;
-		width: 500px;
-		height: 50px;
-	position: absolute;
-	top: 100px;
-	left: 45px;
+		width: 74%;
+		height: auto;
+	position: relative;
+	left: auto;
+	top: 639px;
 	z-index: 1;
 	background-color: transparent;
-	margin: 439px -52px 13px -3px;
+	margin: 0 auto;
 	}
 	
 	.pkglog .pbmit-btn::before{
@@ -3654,13 +3660,16 @@ display: none;
 		text-align: center;
 	  }
 	.packbtn2{
-		width: 100%;
+		width: 32%;
 		padding-left: 30px;
 		padding-right: 30px;
 		height: 50px;
 		border-radius: 50px;
 		background-color: var(--pbmit-global-color);
 		color: white;
+		position: relative;
+		top: auto;
+		left: auto;
 	}
 	#bookingnum {
 		width: 100%;
@@ -3674,9 +3683,17 @@ display: none;
 	}
 	.tophed-title p{
 		background-color: transparent;
+		font-size: 54px;
+		font-weight: 500;
+		
 	}
-	.marquee_one {
-		padding-top: 0px;
+	.tophed-para span {
+		position: absolute;
+		top: 300px;
+		left: 300px;
+		font-size: 28px;
+		color: #000000;
+		font-weight: bold;
 	}
 	.topcont {
 		padding-top: 24px;
