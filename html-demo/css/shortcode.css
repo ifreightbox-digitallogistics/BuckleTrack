@@ -1264,13 +1264,13 @@
 }
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
 	position: absolute;
-    bottom: 15px;
-    left: 417px;
+    bottom: 10px;
+    left: 407px;
 	padding: 0px 8px;
 	margin: 0px -235px -6px -152px;
     opacity: 1;
     word-break: break-word;
-    transform: translateX(-46%);
+    transform: translateX(-43%);
     background: rgba(255, 255, 255, 0.75)
     /* transition: all .8s; */
 }

@@ -25,6 +25,29 @@
 .inbo5{
 	margin-top: 90px;
 }
+.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button {
+	text-align: center; 
+	display: block; 
+	margin: 0 auto; 
+	border: none;
+	color: hsla(0, 0%, 100%, 0.852);
+	background-color: var(--pbmit-global-color);
+	box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-top: -22px;
+    margin-bottom: 5px;
+    padding: 1px 16px;
+	text-transform: uppercase;
+    border-radius: 5px;
+	cursor: pointer;
+}
+.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button:hover{
+	background-color: hsl(19, 100%, 60%);
+}
+.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button:active{
+	box-shadow: none;
+	position: relative;
+	top: 4px;
+}
 
 .team_one .pbmit-team-style-1 .pbminfotech-box-content .pbmit-titlebox .pbmit-team-title a{
 	cursor: default;
