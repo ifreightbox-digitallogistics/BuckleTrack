@@ -2149,13 +2149,7 @@ body {
 		background-color: var(--pbmit-secondary-color);
 
 	}
-	.banner img{
-		width: 100%;
-		position: relative;
-		top: 100px;
-		left: 15px;
-		z-index: -1;
-	}
+
 	.tophed-title p{
 		background-color: transparent;
 	}
@@ -2365,14 +2359,14 @@ body {
 	.pkglog{
 		display: flex;
 		gap: 10px;
-		width: 600px;
-		height: 50px;
-	position: absolute;
-	top: 100px;
-	left: 75px;
+		width: 90%;
+		height: auto;
+	position: relative;
+	left: 9px;
+	top: 490px;
 	z-index: 1;
 	background-color: transparent;
-	margin: 439px -52px 13px -3px;
+	margin: 0 auto;
 	}
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
@@ -2381,7 +2375,7 @@ body {
 		text-align: center;
 	  }
 	  .marquee_one{
-		margin-top: 150px;
+		margin-top: 204px;
 	}
 	.growth1 .container .row {
 		--bs-gutter-x: -1.5rem;
@@ -2530,20 +2524,100 @@ body {
 		margin-top: -137px;
 		margin-bottom: 100px;
 	}
+	#bookingnum {
+		width: 54%;
+		border-radius: 50px;
+	}
+	.banner img{
+		width: 65%;
+		position: relative;
+		top: 102px;
+		left: 155px;
+		z-index: -1;
+	}
+	.tophed-title p{
+		background-color: transparent;
+		font-size: 54px;
+		font-weight: 500;
+	}
+	.tophed-para span {
+		position: absolute;
+		top: 280px;
+		left: 184px;
+		font-size: 16px;
+		color: #000000;
+		font-weight: bold;
+	}
+	.tophedimg img {
+		position: absolute;
+		top: 260px;
+		left: -9px;
+		width: 197px;
+		animation: fade-in 2.5s;
+	}
 	
+}
+@media (min-width: 300px) and (max-width:400px){
+	.marquee_one {
+		padding-top: 448px;
+	}
 }
 @media (min-width: 500px) and (max-width:600px){
 	.pkglog{
 		display: flex;
 		gap: 10px;
-		width: 74%;
+		width: 90%;
 		height: auto;
 	position: relative;
-	left: auto;
-	top: 639px;
+	left: 9px;
+	top: 523px;
 	z-index: 1;
 	background-color: transparent;
 	margin: 0 auto;
+	}
+	#bookingnum {
+		width: 54%;
+		border-radius: 50px;
+	}
+	
+	.packbtn2{
+		width: 32%;
+		padding-left: 30px;
+		padding-right: 30px;
+		height: 50px;
+		border-radius: 50px;
+		background-color: var(--pbmit-global-color);
+		color: white;
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	.tophed-title p{
+		background-color: transparent;
+		font-size: 54px;
+		font-weight: 500;
+	}
+	.banner img{
+		width: 63%;
+		position: relative;
+		top: 100px;
+		left: 199px;
+		z-index: -1;
+	}
+	.tophed-para span {
+		position: absolute;
+		top: 300px;
+		left: 225px;
+		font-size: 17px;
+		color: #000000;
+		font-weight: bold;
+	}
+	.tophedimg img {
+		position: absolute;
+		top: 260px;
+		left: 10px;
+		width: 238px;
+		animation: fade-in 2.5s;
 	}
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
