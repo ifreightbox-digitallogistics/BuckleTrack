@@ -163,7 +163,18 @@ body {
 	}
 	
 }
-
+@media(min-width:1000px ) and ( max-width:1100px){
+	.topcont {
+		padding-top: 24px;
+		height: 800px;
+	}
+}
+@media(min-width:1100px ) and ( max-width:1200px){
+	.topcont {
+		padding-top: 24px;
+		height: 800px;
+	}
+}
 @media(min-width:1200px ) and ( max-width:1400px){
 	.banner img {
 		width: 32%;
