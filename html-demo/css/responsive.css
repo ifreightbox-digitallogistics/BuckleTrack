@@ -2583,6 +2583,19 @@ body {
 		padding-top: 448px;
 	}
 }
+@media (min-width: 200px) and (max-width:300px){
+	.marquee_one {
+		padding-top: 448px;
+	}
+	
+}
+@media (min-width: 300px) and (max-width:336px){
+	.float-right {
+		float: right !important;
+		margin-right: -47px;
+		margin-top: -10px;
+	}
+}
 @media (min-width: 500px) and (max-width:600px){
 	.pkglog{
 		display: flex;
