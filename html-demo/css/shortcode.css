@@ -38,9 +38,9 @@
 
 
 .aanaa{
-	width: 55px;
+	width: 77px;
 	position: relative;
-	top: -5px;
+	top: -22px;
 }
 
 
@@ -267,7 +267,7 @@
 	left: 0;
 	opacity: 0;
 	visibility:hidden;
-	background-color: var(--pbmit-global-color);
+	/* background-color: var(--pbmit-global-color); */
 	transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -282,7 +282,7 @@
 	line-height: 28px;
 }
 .pbmit-ihbox-style-3 .pbmit-ihbox-box {
-	padding: 27px 20px 27px 151px;
+	padding: 40px 20px 27px 151px;
     border-bottom: 1px solid var(--pbmit-global-color);
     width: 102%;
     position: relative;

@@ -10,7 +10,7 @@ url("../fonts/flaticon.svg") format("svg");
 i[class^="flaticon-"]:before, i[class*=" pbmit-BuckleTrack-icon-"]:before {
     font-family: "flaticon" !important;
     font-style: normal;
-    font-weight: normal !important;
+    font-weight: bolder !important;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
