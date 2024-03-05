@@ -15,8 +15,9 @@ body {
     }
 }
 @media(max-width:1500px){
+	
 	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
-		font-size: 13px;
+		font-size: 12px;
 		text-align: -webkit-match-parent;
 	}
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
@@ -148,19 +149,168 @@ body {
 		padding-top: 24px;
 		height: 720px;
 	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 112%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 35px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 45px;
+		
+	}
+	.about_us .process-section_three {
+		margin-left: -232px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 746px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3{
+		position: relative;
+		left: 329px;
+		top: 520px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4{
+		position: relative;
+		left: -721px;
+		top: 526px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5{
+		position: relative;
+		left: 253px;
+		top: -12px;
+		display: inline-block;
+	} */
 }
 @media(min-width:1500px ) and ( max-width:1600px){
 	.topcont {
 		padding-top: 24px;
 		height: 790px;
 	}
-	
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 121%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 35px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 45px;
+		
+	}
+	.about_us .process-section_three {
+		margin-left: -166px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 746px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3{
+		position: relative;
+		left: 329px;
+		top: 520px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4{
+		position: relative;
+		left: -721px;
+		top: 526px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5{
+		position: relative;
+		left: 253px;
+		top: -12px;
+		display: inline-block;
+	} */
 }
 @media(min-width:1600px ) and ( max-width:1700px){
 	.topcont {
 		padding-top: 24px;
 		height: 790px;
 	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 121%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 35px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 45px;
+		
+	}
+	.about_us .process-section_three {
+		margin-left: -127px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 746px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3{
+		position: relative;
+		left: 329px;
+		top: 520px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4{
+		position: relative;
+		left: -721px;
+		top: 526px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5{
+		position: relative;
+		left: 253px;
+		top: -12px;
+		display: inline-block;
+	} */
 	
 }
 @media(min-width:1000px ) and ( max-width:1100px){
@@ -168,14 +318,230 @@ body {
 		padding-top: 24px;
 		height: 800px;
 	}
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 23px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 41px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 14px;
+	}
+	
+	
+	.about_us .process-section_three {
+		margin-left: -408px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 804px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3 {
+		position: relative;
+		left: 512px;
+		top: 454px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4 {
+		position: relative;
+		left: -163px;
+		top: 461px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5 {
+		position: relative;
+		left: -513px;
+		top: 217px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 81px;
+		transform: rotate(212deg);
+		position: relative;
+		top: 172px;
+		left: 244px;
+	}
+	#abtarrow {
+		width: 79px;
+		position: relative;
+		top: -103px;
+		left: 1121px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 95px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 339px;
+		left: 746px;
+	}
+	#abtarrow5 {
+		width: 79px;
+		transform: rotate(54deg);
+		position: relative;
+		top: 131px;
+		left: 1181px;
+	} */
 }
 @media(min-width:1100px ) and ( max-width:1200px){
 	.topcont {
 		padding-top: 24px;
 		height: 800px;
 	}
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 30px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 45px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 17px;
+	}
+	
+	
+	.about_us .process-section_three {
+		margin-left: -399px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 804px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3{
+		position: relative;
+		left: 418px;
+		top: 487px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4{
+		position: relative;
+		left: -515px;
+		top: 489px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5{
+		position: relative;
+		left: 417px;
+		top: 7px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 95px;
+		transform: rotate(218deg);
+		position: relative;
+		top: -26px;
+		left: 131px;
+	}
+	#abtarrow {
+		width: 79px;
+		position: relative;
+		top: -336px;
+		left: 1191px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 95px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 80px;
+		left: 761px;
+	}
+	#abtarrow5 {
+		width: 79px;
+		transform: rotate(54deg);
+		position: relative;
+		top: -68px;
+		left: 1299px;
+	} */
 }
+
 @media(min-width:1200px ) and ( max-width:1400px){
+
+	/* aboutusclockwise */
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 30px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 45px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 17px;
+	}
+	
+	
+	.about_us .process-section_three {
+		margin-left: -316px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 746px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3{
+		position: relative;
+		left: 418px;
+		top: 487px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4{
+		position: relative;
+		left: -515px;
+		top: 489px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5{
+		position: relative;
+		left: 341px;
+		top: 7px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 112px;
+		transform: rotate(210deg);
+		position: relative;
+		top: -44px;
+		left: 0px;
+	}
+	#abtarrow {
+		width: 117px;
+		position: relative;
+		top: -333px;
+		left: 1114px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 124px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 80px;
+		left: 666px;
+	} */
+	/* aboutusclockwiseEnd */
 	.watermarkimg::before{
 		content: "";
 		display: block;
@@ -3331,6 +3697,87 @@ display: none;
 /* topbarend */
 }
 @media (min-width:900px) and (max-width:1000px){
+	/* aboutusclockwise */
+
+	.process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 23px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 41px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 14px;
+	}
+	
+	.process-section_three .clockcont .headcont .firstcont {
+		position: relative;
+		top: -61px;
+		left: 32px;
+	}
+	.about_us .process-section_three {
+		margin-left: -447px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 804px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3 {
+		position: relative;
+		left: 512px;
+		top: 454px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4 {
+		position: relative;
+		left: -163px;
+		top: 461px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5 {
+		position: relative;
+		left: -513px;
+		top: 217px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 81px;
+		transform: rotate(212deg);
+		position: relative;
+		top: 172px;
+		left: 244px;
+	}
+	#abtarrow {
+		width: 79px;
+		position: relative;
+		top: -103px;
+		left: 1121px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 95px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 339px;
+		left: 746px;
+	}
+	#abtarrow5 {
+		width: 79px;
+		transform: rotate(54deg);
+		position: relative;
+		top: 131px;
+		left: 1181px;
+	}
+/* aboutusclockwiseEnd */
+
 	.abt1hedtitle{
 		margin-top: -161px;
 	}
@@ -3446,6 +3893,87 @@ display: none;
 }
 }
 @media (min-width:800px) and (max-width:900px){
+	/* aboutusclockwise */
+
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 23px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 41px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 14px;
+	}
+	
+	.process-section_three .clockcont .headcont .firstcont {
+		position: relative;
+		top: -61px;
+		left: 32px;
+	}
+	.about_us .process-section_three {
+		margin-left: -551px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 804px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 803px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3 {
+		position: relative;
+		left: 553px;
+		top: 443px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4 {
+		position: relative;
+		left: -102px;
+		top: 448px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5 {
+		position: relative;
+		left: -444px;
+		top: 217px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 81px;
+		transform: rotate(212deg);
+		position: relative;
+		top: 169px;
+		left: 310px;
+	}
+	#abtarrow {
+		width: 71px;
+		position: relative;
+		top: -112px;
+		left: 1121px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 95px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 325px;
+		left: 789px;
+	}
+	#abtarrow5 {
+		width: 79px;
+		transform: rotate(54deg);
+		position: relative;
+		top: 131px;
+		left: 1181px;
+	} */
+/* aboutusclockwiseEnd */
+
 	.abt1hedtitle{
 		margin-top: -161px;
 	}
@@ -3745,6 +4273,87 @@ display: none;
 }
 
 @media (min-width:700px) and (max-width:800px) {
+	/* aboutusclockwise */
+
+	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
+		display: inline-block;
+		font-size: 21px;
+	}
+	.process-section_three .clockcont .headcont .clockabtnum {
+		font-size: 35px;
+		
+	}
+	.process-section_three .clockcont .firstcont-inform .firstcontinfo {
+		font-size: 12px;
+	}
+	
+	.process-section_three .clockcont .headcont .firstcont {
+		position: relative;
+		top: -61px;
+		left: 32px;
+	}
+	.about_us .process-section_three {
+		margin-left: -578px;
+	}
+	.process-section_three .clkcontabt{
+		position: relative;
+		left: 835px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt2{
+		position: relative;
+		left: 827px;
+		top: 217px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt3 {
+		position: relative;
+		left: 512px;
+		top: 454px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt4 {
+		position: relative;
+		left: -163px;
+		top: 461px;
+		display: inline-block;
+	}
+	.process-section_three .clkcontabt5 {
+		position: relative;
+		left: -308px;
+		top: 220px;
+		display: inline-block;
+	}
+	#abtarrow7 {
+		width: 81px;
+		transform: rotate(212deg);
+		position: relative;
+		top: 172px;
+		left: 244px;
+	}
+	#abtarrow {
+		width: 79px;
+		position: relative;
+		top: -103px;
+		left: 1121px;
+		transform: rotate(9deg);
+	}
+	#abtarrow6 {
+		width: 95px;
+		transform: rotate(121deg);
+		position: relative;
+		top: 339px;
+		left: 746px;
+	}
+	#abtarrow5 {
+		width: 79px;
+		transform: rotate(54deg);
+		position: relative;
+		top: 131px;
+		left: 1181px;
+	} */
+/* aboutusclockwiseEnd */
+
 	.float-right {
 		float: right!important;
 		margin-right: 15px;

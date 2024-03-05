@@ -59,6 +59,107 @@
 /* footertexthoverend */
 
 /* AboutMe */
+/* 
+.process-section_three .clkcontabt{
+	position: relative;
+	left: 694px;
+	display: inline-block;
+}
+.process-section_three .clkcontabt2{
+	position: relative;
+	left: 803px;
+	top: 217px;
+	display: inline-block;
+}
+.process-section_three .clkcontabt3{
+	position: relative;
+	left: 223px;
+	top: 520px;
+	display: inline-block;
+}
+.process-section_three .clkcontabt4{
+	position: relative;
+	left: -899px;
+	top: 526px;
+	display: inline-block;
+}
+.process-section_three .clkcontabt5{
+	position: relative;
+	left: 149px;
+	top: -12px;
+	display: inline-block;
+}
+.process-section_three .clockcont .headcont, .clockcont{
+	display: inline-block;
+}
+.process-section_three .clockcont .headcont .abtimage1{
+	display: inline-block;
+}
+#abtarrow {
+    width: 117px;
+    position: relative;
+    top: -391px;
+    left: 1212px;
+	transform: rotate(-1deg);
+}
+#abtarrow5 {
+    width: 117px;
+    transform: rotate(56deg);
+    position: relative;
+    top: -70px;
+    left: 1259px;
+}
+#abtarrow6 {
+    width: 124px;
+    transform: rotate(124deg);
+    position: relative;
+    top: 124px;
+    left: 697px;
+}
+#abtarrow7 {
+    width: 124px;
+    transform: rotate(210deg);
+    position: relative;
+    top: -51px;
+    left: -64px;
+}
+
+.process-section_three .clockcont .headcont .clockabtnum{
+	font-size: 50px;
+	display: inline-block;
+	font-weight: bolder;
+	color: #000000;
+	
+}
+.process-section_three .clockcont .headcont .firstcont{
+	position: relative;
+	top: -64px;
+	left: 45px;
+}
+.process-section_three .clockcont .headcont .firstcont .firstcont-contents{
+	position: relative;
+}
+.process-section_three .clockcont .headcont .firstcont .firstcont-contents h2{
+	 display: inline-block;
+	 font-size: 39px;
+}
+.process-section_three .clockcont .firstcont-inform .firstcontinfo{
+	font-size: 20px;
+	 display: block;
+	 container-type: inline-size;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
 .about-section .about-text h3,h5{
 	font-size: 35px;
 }
@@ -1032,6 +1133,7 @@ left: 200px;
 }
 .about_us .process-section_three{
 	padding: 0 0 0px 0px;
+	margin-bottom: 235px;
 }
 .about_us .fid-section_one{
 	padding: 135px 0 140px 0;
