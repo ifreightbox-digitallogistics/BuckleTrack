@@ -3074,7 +3074,24 @@ body {
 	.about_us .about-one_rightbox .pbmit-heading_desc{
 		margin-top: 70px;
 	}
-	
+	.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button {
+		text-align: center; 
+		display: block; 
+		margin: 0 auto; 
+		border: none;
+		color: hsla(0, 0%, 100%, 0.852);
+		background-color: var(--pbmit-global-color);
+		box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		margin-top: -22px;
+		margin-bottom: 5px;
+		padding: 1px 16px;
+		text-transform: uppercase;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content a{
+		font-size: 13px;
+	}
 	
 }
 @media (min-width: 200px) and (max-width:300px){
@@ -3468,7 +3485,7 @@ display: none;
 .growth1{
 	
 	height: 900px;
-	background: #4ac63f url(../revolution/images/many-transport.jpg) no-repeat 50%/cover;
+	background: #4ac63f url(../servv/bkka.jpg) no-repeat 50%/cover;
 	background-position: inherit;
 	background-repeat: no-repeat ;
 
@@ -3579,7 +3596,7 @@ display: none;
 		margin: 0px -235px -6px -152px;
 		opacity: 1;
 		word-break: break-word;
-		transform: translateX(-65%);
+		transform: translateX(-62%);
 		background: rgba(255, 255, 255, 0.75)
 		/* transition: all .8s; */
 	}
@@ -3591,7 +3608,7 @@ display: none;
 	}
 	.pbmit-portfolio-style-1 .pbmit-portfolio-title p{
 		
-		font-size: 11px;
+		font-size: 12px;
 		text-align: -webkit-match-parent;
 		
 	}
@@ -3693,6 +3710,7 @@ display: none;
 		right: auto;
 		margin: 0 auto;
 		padding: 0;
+		margin-bottom: 77px;
 	}
 .testimonial-one_left .minnimap video{
 	width: 350px;
@@ -4546,7 +4564,7 @@ display: none;
 	}
 	.growth1 {
 		height: 555px;
-		background: url(../revolution/images/many-transport.jpg);
+		background: url(../servv/bkka.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
