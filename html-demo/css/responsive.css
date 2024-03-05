@@ -144,6 +144,18 @@ body {
 	/* indexHeaderNavEnd */
 	
 }
+@media(min-width:1700px ) and ( max-width:1800px){
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 119%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+}
 @media(min-width:1400px ) and ( max-width:1500px){
 	.topcont {
 		padding-top: 24px;
@@ -215,6 +227,21 @@ body {
 		height: 121%;
 		background-color: rgba(255, 255, 255, 0.51);
 	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 10px;
+		left: 407px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-54%);
+		background: rgba(255, 255, 255, 0.75);
+	}
+	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+		font-size: 14px;
+		text-align: -webkit-match-parent;
+	}
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 35px;
@@ -271,6 +298,22 @@ body {
 		height: 121%;
 		background-color: rgba(255, 255, 255, 0.51);
 	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 10px;
+		left: 407px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-49%);
+		background: rgba(255, 255, 255, 0.75);
+	}
+	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
+		font-size: 16px;
+		text-align: -webkit-match-parent;
+	}
+	
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 35px;
@@ -470,6 +513,17 @@ body {
 		top: -68px;
 		left: 1299px;
 	} */
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 10px;
+		left: 407px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-54%);
+		background: rgba(255, 255, 255, 0.75);
+	}
 }
 
 @media(min-width:1200px ) and ( max-width:1400px){
@@ -2754,6 +2808,23 @@ body {
 	left: 28px;
 	z-index: 1;
 	}
+	.watermarkimg{
+		background: url(../revolution/images/many-transport.jpg);
+		height: 700px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 83%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
 	  }
@@ -2761,7 +2832,7 @@ body {
 		text-align: center;
 	  }
 	  .marquee_one{
-		margin-top: 117px;
+		margin-top: 0px;
 	}
 	.growth1 .container .row {
 		--bs-gutter-x: -1.5rem;
@@ -2840,11 +2911,11 @@ body {
 	font-size: 15px;
 }
 .indexabout .about-one_rightbox .pbmit-heading-subheading .pbmit-heading_desc{
-		margin-top: 450px;
+		margin-top: 0px;
 }
 
 .abt1hedtitle{
-	margin-top: -150px;
+	margin-top: -43px;
 }
 
 .pbmit-portfolio-style-1 .pbminfotech-box-content {
@@ -2950,6 +3021,7 @@ body {
 	}
 	.tophead1 {
 		margin-top: 100px;
+
 	}
 	#bookingnum {
 		width: 281px;
@@ -2965,11 +3037,41 @@ body {
 		color: white;
 	}
 	
+.about_us .process-section_three {
+    padding: 0 0 0px 0px;
+    margin-bottom: 0;
+}
+
+
 }
 @media (min-width: 300px) and (max-width:400px){
 	.marquee_one {
-		padding-top: 448px;
+		padding-top: 0px;
 	}
+	.watermarkimg{
+		background: url(../revolution/images/many-transport.jpg);
+		height: 700px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 83%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
+	.abt1hedtitle{
+		margin-top: 494px;
+	}
+	.indexabout .pbmit-heading-subheading .pbmit-heading_desc {
+		margin-top: -292px;
+	}
+	
+	
 }
 @media (min-width: 200px) and (max-width:300px){
 	.marquee_one {

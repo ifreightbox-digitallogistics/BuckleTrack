@@ -277,14 +277,15 @@
 }
 /* growth */
 .growth1{
-	height: 450px;
-	background: url(../revolution/images/many-transport.jpg);
+	height: 471px;
+	background: url(../servv/bkka.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-blend-mode: normal;
 	
 }
+
 
 .growth50{
 	margin-top: 373px;
@@ -314,6 +315,9 @@
 .grw12{
 	padding-bottom: 0px;
 }
+.grew500 p{
+	color: #fff;
+}
 .grw13{
 	padding-bottom: 20px;
 }
@@ -323,10 +327,11 @@
 }
 
 .grew22 h4{
-	color: white;
+	color:#fff;
 }
 .grew22{
 	color: hsl(0, 0%, 97%);
+	backdrop-filter: blur(2px);
 }
 .grwo5{
 	padding-bottom: 50px;
