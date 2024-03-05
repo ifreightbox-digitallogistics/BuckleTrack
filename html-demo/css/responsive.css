@@ -361,6 +361,16 @@ body {
 		padding-top: 24px;
 		height: 800px;
 	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0px;
+		width: 100%;
+		height: 122%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 23px;
@@ -439,6 +449,16 @@ body {
 	.topcont {
 		padding-top: 24px;
 		height: 800px;
+	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 122%;
+		background-color: rgba(255, 255, 255, 0.51);
 	}
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
@@ -3821,6 +3841,17 @@ display: none;
 /* topbarend */
 }
 @media (min-width:900px) and (max-width:1000px){
+
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0px;
+		width: 100%;
+		height: 119%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
 	/* aboutusclockwise */
 
 	.process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
@@ -4102,9 +4133,18 @@ display: none;
 		margin-top: -161px;
 	}
 	.marquee_one{
-		margin-top: -140px;
+		margin-top: -7px;
 	}
-
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 119%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
 	.about-one_img2{
 		position: relative;
 		text-align: center;
@@ -4215,7 +4255,24 @@ display: none;
 	background-color: transparent;
 	margin: 0 auto;
 	}
-
+	.watermarkimg {
+		background: url(../revolution/images/many-transport.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-blend-mode: normal;
+		height: 776px;
+	}
+	.watermarkimg::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 27px;
+		left: 0;
+		width: 100%;
+		height: 119%;
+		background-color: rgba(255, 255, 255, 0.51);
+	}
 	.banner img {
 		width: 57%;
 		position: relative;
@@ -4478,6 +4535,25 @@ display: none;
 	} */
 /* aboutusclockwiseEnd */
 
+
+.watermarkimg {
+    background: url(../revolution/images/many-transport.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: normal;
+    height: 776px;
+}
+.watermarkimg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    width: 100%;
+    height: 119%;
+    background-color: rgba(255, 255, 255, 0.51);
+}
 	.float-right {
 		float: right!important;
 		margin-right: 15px;
@@ -4493,7 +4569,7 @@ display: none;
 		z-index: -10;
 	}
 	.marquee_one{
-		padding-top: 340px;
+		padding-top: 10px;
 		padding-bottom: 14px;
 	}
 	.pkglog{
