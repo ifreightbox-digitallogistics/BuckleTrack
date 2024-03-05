@@ -3043,6 +3043,7 @@ body {
 }
 
 
+
 }
 @media (min-width: 300px) and (max-width:400px){
 	.marquee_one {
@@ -3069,6 +3070,9 @@ body {
 	}
 	.indexabout .pbmit-heading-subheading .pbmit-heading_desc {
 		margin-top: -292px;
+	}
+	.about_us .about-one_rightbox .pbmit-heading_desc{
+		margin-top: 70px;
 	}
 	
 	
