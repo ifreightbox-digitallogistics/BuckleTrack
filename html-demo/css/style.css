@@ -25,6 +25,12 @@
 .inbo5{
 	margin-top: 90px;
 }
+
+.page-wrapper .header-style-1 .socialeicon .pbmit-button-box .pbmit-social-links a:hover{
+	color: var(--bs-orange);
+
+}
+
 .swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button {
 	text-align: center; 
 	display: block; 
@@ -71,11 +77,11 @@
 	top: 217px;
 	display: inline-block;
 }
-.process-section_three .clkcontabt3{
-	position: relative;
-	left: 223px;
-	top: 520px;
-	display: inline-block;
+.process-section_three .clkcontabt3 {
+    position: relative;
+    left: 254px;
+    top: 520px;
+    display: inline-block;
 }
 .process-section_three .clkcontabt4{
 	position: relative;
@@ -99,8 +105,8 @@
     width: 117px;
     position: relative;
     top: -391px;
-    left: 1212px;
-	transform: rotate(-1deg);
+    left: 1292px;
+    transform: rotate(-1deg);
 }
 #abtarrow5 {
     width: 117px;
@@ -113,8 +119,8 @@
     width: 124px;
     transform: rotate(124deg);
     position: relative;
-    top: 124px;
-    left: 697px;
+    top: 136px;
+    left: 702px;
 }
 #abtarrow7 {
     width: 124px;
@@ -127,8 +133,8 @@
     width: 124px;
     transform: rotate(254deg);
     position: relative;
-    top: -367px;
-    left: 4px;
+    top: -387px;
+    left: -62px;
 }
 
 .process-section_three .clockcont .headcont .clockabtnum{
