@@ -732,6 +732,17 @@ body {
 		top: -44px;
 		left: 183px;
 	}
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 15px;
+		left: 450px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-75%);
+		background: rgba(255, 255, 255, 0.75) /* transition: all .8s; */;
+	}
 }
 @media (min-width: 1300px) and (max-width:1400px){
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
@@ -3228,7 +3239,9 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
+	#ware20 p{
+		line-height: 2.1;
+	}
 	.abt1hedtitle{
 		margin-top: 494px;
 	}
