@@ -145,32 +145,14 @@ body {
 	
 }
 @media(min-width:1700px ) and ( max-width:1800px){
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 119%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 }
 @media(min-width:1400px ) and ( max-width:1500px){
 	.topcont {
 		padding-top: 24px;
 		height: 720px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 112%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 35px;
@@ -217,16 +199,7 @@ body {
 		padding-top: 24px;
 		height: 790px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 121%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+	
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
 		position: absolute;
 		bottom: 10px;
@@ -288,16 +261,7 @@ body {
 		padding-top: 24px;
 		height: 790px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 121%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+	
 	.pbmit-portfolio-style-1 .pbminfotech-box-content {
 		position: absolute;
 		bottom: 10px;
@@ -361,16 +325,7 @@ body {
 		padding-top: 24px;
 		height: 800px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0px;
-		width: 100%;
-		height: 122%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 23px;
@@ -450,16 +405,7 @@ body {
 		padding-top: 24px;
 		height: 800px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 122%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	/* .process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 		display: inline-block;
 		font-size: 30px;
@@ -616,17 +562,7 @@ body {
 		left: 666px;
 	} */
 	/* aboutusclockwiseEnd */
-	.watermarkimg::before{
-		content: "";
-		display: block;
-		position: absolute;
-		top: auto;
-		left: auto;
-		width: 100%;
-		height: 69%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
-	
+
 	.banner img {
 		width: 32%;
 		position: relative;
@@ -745,7 +681,19 @@ body {
 		padding: 110px 0 95px 0;
 	}
 }
-
+@media (min-width: 1300px) and (max-width:1400px){
+	.pbmit-portfolio-style-1 .pbminfotech-box-content {
+		position: absolute;
+		bottom: 15px;
+		left: 450px;
+		padding: 0px 8px;
+		margin: 0px -235px -6px -152px;
+		opacity: 1;
+		word-break: break-word;
+		transform: translateX(-74%);
+		background: rgba(255, 255, 255, 0.75) /* transition: all .8s; */;
+	}
+}
 @media (max-width: 1300px){
 	/*=== Header ===*/
 	.header-style-3 .pbmit-social-links{
@@ -2605,6 +2553,7 @@ body {
 	#bookingnum{
 		width: 200px;
 		border-radius: 50px;
+		border: none;
 	}
 	
 	.packbtn2:hover{
@@ -2829,21 +2778,12 @@ body {
 	z-index: 1;
 	}
 	.watermarkimg{
-		background: url(../revolution/images/many-transport.jpg);
+		background: url(../revolution/images/fadee.jpeg);
 		height: 700px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 83%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 
 	.pkglog input::-webkit-input-placeholder {
 		text-align: center;
@@ -3003,6 +2943,7 @@ body {
 	}
 	#bookingnum {
 		width: 54%;
+		border: none;
 		border-radius: 50px;
 	}
 	.banner img{
@@ -3045,6 +2986,7 @@ body {
 	}
 	#bookingnum {
 		width: 281px;
+		border: none;
 		border-radius: 50px;
 	}
 	.packbtn2{
@@ -3055,6 +2997,7 @@ body {
 		border-radius: 50px;
 		background-color: var(--pbmit-global-color);
 		color: white;
+		border: none;
 	}
 	
 .about_us .process-section_three {
@@ -3070,21 +3013,12 @@ body {
 		padding-top: 0px;
 	}
 	.watermarkimg{
-		background: url(../revolution/images/many-transport.jpg);
+		background: url(../revolution/images/fadee.jpeg);
 		height: 700px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 83%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	.abt1hedtitle{
 		margin-top: 494px;
 	}
@@ -3142,6 +3076,7 @@ body {
 	}
 	#bookingnum {
 		width: 54%;
+		border: none;
 		border-radius: 50px;
 	}
 	
@@ -3156,6 +3091,7 @@ body {
 		position: relative;
 		top: auto;
 		left: auto;
+		border: none;
 	}
 	.tophed-title p{
 		background-color: transparent;
@@ -3443,10 +3379,12 @@ display: none;
 		border-radius: 50px;
 		background-color: var(--pbmit-global-color);
 		color: white;
+		border: none;
 	}
 	
 	#bookingnum{
 		width: 240px;
+		border: none;
 		border-radius: 50px;
 		align-items: center;
 	}
@@ -3842,16 +3780,7 @@ display: none;
 }
 @media (min-width:900px) and (max-width:1000px){
 
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0px;
-		width: 100%;
-		height: 119%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	/* aboutusclockwise */
 
 	.process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
@@ -4135,16 +4064,7 @@ display: none;
 	.marquee_one{
 		margin-top: -7px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 119%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	.about-one_img2{
 		position: relative;
 		text-align: center;
@@ -4256,23 +4176,14 @@ display: none;
 	margin: 0 auto;
 	}
 	.watermarkimg {
-		background: url(../revolution/images/many-transport.jpg);
+		background: url(../revolution/images/fadee.jpeg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 		background-blend-mode: normal;
 		height: 776px;
 	}
-	.watermarkimg::before {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 27px;
-		left: 0;
-		width: 100%;
-		height: 119%;
-		background-color: rgba(255, 255, 255, 0.51);
-	}
+
 	.banner img {
 		width: 57%;
 		position: relative;
@@ -4327,10 +4238,13 @@ display: none;
 		position: relative;
 		top: auto;
 		left: auto;
+		border: none;
+		
 	}
 	#bookingnum {
 		width: 100%;
 		border-radius: 50px;
+		border: none;
 	}
 	
 	
@@ -4537,23 +4451,14 @@ display: none;
 
 
 .watermarkimg {
-    background: url(../revolution/images/many-transport.jpg);
+    background: url(../revolution/images/fadee.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: normal;
     height: 776px;
 }
-.watermarkimg::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 27px;
-    left: 0;
-    width: 100%;
-    height: 119%;
-    background-color: rgba(255, 255, 255, 0.51);
-}
+
 	.float-right {
 		float: right!important;
 		margin-right: 15px;
@@ -4609,8 +4514,10 @@ display: none;
 		position: relative;
 		top: auto;
 		left: auto;
+		border: none;
 	}
 	#bookingnum {
+		border: none;
 		width: 100%;
 		border-radius: 50px;
 	}
