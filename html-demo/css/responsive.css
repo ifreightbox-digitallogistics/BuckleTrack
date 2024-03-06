@@ -1168,7 +1168,7 @@ body {
 		top: 10px; 
 	}
 	.site-header .righticon {
-		display: block;
+		display: none;
 		position: absolute;
 		right: 25px;
 		top: 15px;
