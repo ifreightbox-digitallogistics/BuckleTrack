@@ -146,6 +146,9 @@
 		
 	}
 	@media(min-width:1700px ) and ( max-width:1780px){
+		.team_one .team-one-left_col .pbmit-heading-subheading h2{
+			font-size: 43px;
+		}
 			
 		#about20 {
 			margin-top: -155px;
@@ -3170,11 +3173,19 @@
 		transform: translateX(-93%);
 		background: rgba(255, 255, 255, 0.75) /* transition: all .8s; */;
 	}
-	#ware20 p {
-		line-height: 2.7;
+	.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content button{
+		padding: 0px 11px;
 	}
+	.swiper-slide .pbmit-portfolio-style-1 .pbminfotech-post-content .pbminfotech-box-content a{
+		font-size: 16px;
+	}
+	#ware20 p {
+		line-height: 1.8;
+	}
+	
 	.pbmit-portfolio-style-1 .pbmit-portfolio-title p {
-		font-size: 10px;
+		font-size: 13px;
+		line-height: 1.5;
 		text-align: -webkit-match-parent;
 	}
 	.section-lgb{
