@@ -417,8 +417,9 @@ html {
 	padding-top: 110px;
 	padding-bottom: 70px;
 }
-.section-lgb{
-     padding-bottom:34px;
+#sectiontest1{
+    margin-bottom: -135px;
+    margin-top: -163px;
 }
 
 /*----------------------------------------*/

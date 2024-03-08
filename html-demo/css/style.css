@@ -24,6 +24,7 @@
 /** Homepage 01 **/
 .inbo5{
 	margin-top: 90px;
+	margin-bottom: -154px;
 }
 
 .page-wrapper .header-style-1 .socialeicon .pbmit-button-box .pbmit-social-links a:hover{
@@ -256,15 +257,15 @@
 .tophed-title p{
 	line-height: 1;
 	position: absolute;
-	top: 150px;
-	left: 138px;
+	top: 226px;
+	left: 129px;
 	font-size: 70px;
 	font-weight: bold;
 	color: black;
 }
 .tophed-para span{
 	position: absolute;
-	top: 319px;
+	top: 319px;	
 	left: 300px;
 	font-size: 30px;
 	color: #000000;
@@ -1122,8 +1123,15 @@ left: 200px;
 /*01 - Inner Page 
 /*----------------------------------------*/
 /** 01 - About Us **/
+#growth230 {
+    margin-top: 83px;
+    margin-bottom: 19px;
+}
+#about20{
+	margin-top: -155px;
+}
 .about_us .about-us_one{
-	padding: 180px 0px 130px 0px;
+	padding: 20px 0px 130px 0px;
 }
 .about_us .about-one_rightbox{
 	padding: 40px 0 0 75px;

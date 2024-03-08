@@ -81,6 +81,7 @@
 	color: var(--pbmit-secondary-color);
 	font-family: var(--pbmit-body-typography-font-family);
 } */
+
 .pbmit-heading-subheading .pbmit-title{
 	font-family: var(--pbmit-heading-typography-font-family);
     font-weight: 700;
@@ -1873,7 +1874,7 @@
 	color: var(--pbmit-blackish-color);
 }
 .site-footer .pbmit-footer-big-area{
-	padding: 70px 0 0;
+	padding: 21px 0 0;
 }
 .site-footer .pbmit-qoute-button{
 	text-align: end;
@@ -1985,6 +1986,11 @@
 .footer-style-1 .textwidget ul li a{
 	color: var(--pbmit-blackish-color);
 }
+
+.footer-style-1 .pbmit-footer-widget-area .pbmit-footer-widget-col-1 .widget .textwidget li:nth-child(5) {
+	display: contents;
+}
+
 .footer-style-1 .pbmit-contact-widget-line{
 	padding-bottom: 7px;
 }
