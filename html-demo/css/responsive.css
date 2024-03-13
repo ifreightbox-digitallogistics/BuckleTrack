@@ -2980,7 +2980,7 @@
 			margin-top: -24px;
 		}
 		#indabt1 {
-			padding: 55px 0px 122px 0px;
+			padding: 55px 0px 40px 0px;
 			overflow: hidden;
 		}
 		.tophead1{
@@ -3308,6 +3308,7 @@
 			align-items: flex-start;
 			margin-left: -72px;
 		}
+		
 		.process-section_three .clockcont .headcont .firstcont .firstcont-contents h2 {
 			display: inline-block;
 			font-size: 19px;
@@ -3408,12 +3409,14 @@
 		}
 		
 	}
+	
 	@media (min-width: 300px) and (max-width:336px){
 		.float-right {
 			float: right !important;
 			margin-right: -47px;
 			margin-top: -10px;
 		}
+		
 	}
 	@media (min-width: 500px) and (max-width:600px){
 		#about20 {
@@ -3724,7 +3727,10 @@
 			left: 32px;
 		}
 		.about_us .process-section_three {
-			margin-left: -689px;
+			margin-left: -703px;
+		}
+		#about20 {
+			margin-top: -271px;
 		}
 		.process-section_three .clkcontabt{
 			position: relative;
@@ -3839,12 +3845,12 @@
 		/* index top cont */
 		.pkglog{
 			display: flex;
-			gap: 5px;
+			gap: 4px;
 			width: 233px;
 			height: 35px;
 		position: absolute;
 		top: 596px;
-		left: 28px;
+		left: 25px;
 		z-index: 1;
 		}
 		.pkglog .pbmit-btn::before{
@@ -3919,7 +3925,7 @@
 			position: absolute;
 			top: 350px;
 			left: 100px;
-			font-size: 20px;
+			font-size: 17px;
 			color: #000000;
 			font-weight: bold;
 			line-height: 0.8;
@@ -4110,7 +4116,7 @@
 
 	}
 	#indabt1{
-		padding: 9px 0px 124px 0px;
+		padding: 9px 0px 0px 0px;
 		overflow: hidden;
 	}
 
@@ -5260,6 +5266,16 @@
 			float: right!important;
 			margin-right: -41px;
 			margin-top: -10px;
+		}
+		.pkglog {
+			display: flex;
+			gap: 5px;
+			width: 212px;
+			height: 35px;
+			position: absolute;
+			top: 596px;
+			left: 5px;
+			z-index: 1;
 		}
 	}
 		
