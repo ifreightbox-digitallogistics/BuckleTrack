@@ -3051,14 +3051,20 @@
 			display: none;
 		}
 		.pkglog{
-			display: flex;
-			gap: 5px;
-			width: 252px;
+			display: -webkit-inline-box;
+			gap: 4px;
+			width: 233px;
 			height: 35px;
 		position: absolute;
-		top: 612px;
-		left: 28px;
+		top: 637px;
+		left: 69px;
 		z-index: 1;
+		}
+		#trackbtn{
+			position: relative;
+			left: 93px;
+			top: 7px;
+			width: 117px;
 		}
 		.watermarkimg{
 			background: url(../revolution/images/fadee.jpeg);
@@ -3251,7 +3257,7 @@
 		.tophed-title p{
 			line-height: 1;
 			position: absolute;
-			top: 250px;
+			top: 241px;
 			left: 10px;
 			font-size: 40px;
 			font-weight: bold;
@@ -3260,17 +3266,17 @@
 		}
 		.tophed-para span{
 			position: absolute;
-			top: 350px;
+			top: 329px;
 			left: 100px;
 			font-size: 20px;
 			color: #000000;
 			font-weight: bold;
-			line-height: 0.8;
+			line-height: 1.2;
 		}
-		.tophedimg img{
+		.tophedimg img {
 			position: absolute;
-			top: 350px;
-			left: 10px;
+			top: 351px;
+			left: 5px;
 			width: 100px;
 		}
 		.tophead1 {
@@ -3408,14 +3414,34 @@
 			padding-top: 448px;
 		}
 		
+
+
+		
 	}
 	
+	@media (min-width: 300px) and (max-width:352px){
+
+		#pkglog20{
+			width: 179px;
+		}
+		.pkglog input::-webkit-input-placeholder {
+			text-align: center;
+			padding: 10px;
+			font-size: 17px;
+		}
+		
+		
+	}
+
+
+
 	@media (min-width: 300px) and (max-width:336px){
 		.float-right {
 			float: right !important;
 			margin-right: -47px;
 			margin-top: -10px;
 		}
+		
 		
 	}
 	@media (min-width: 500px) and (max-width:600px){
@@ -3844,17 +3870,23 @@
 		}
 		/* index top cont */
 		.pkglog{
-			display: flex;
+			display: -webkit-inline-box;
 			gap: 4px;
 			width: 233px;
 			height: 35px;
 		position: absolute;
-		top: 596px;
-		left: 25px;
+		top: 637px;
+		left: 31px;
 		z-index: 1;
 		}
 		.pkglog .pbmit-btn::before{
 			padding-left: 100px;
+		}
+		#trackbtn{
+			position: relative;
+			left: 93px;
+			top: 7px;
+			width: 117px;
 		}
 		
 		.pkglog .pbmit-btn{
@@ -3866,6 +3898,9 @@
 		.pkglog input::-webkit-input-placeholder {
 			text-align: center;
 			padding: 10px;
+		}
+		.pkglog input{
+			width: 100%;
 		}
 		.packbtn2{
 			width: 100%;
@@ -3879,7 +3914,7 @@
 		}
 		
 		#bookingnum{
-			width: 240px;
+			width: 290px;
 			border: none;
 			border-radius: 50px;
 			align-items: center;
@@ -3914,26 +3949,27 @@
 		.tophed-title p{
 			line-height: 1;
 			position: absolute;
-			top: 250px;
+			top: 239px;
 			left: 10px;
 			font-size: 40px;
 			font-weight: bold;
 			background-color: transparent;
-			color: black;
+			color: #000000;
+			
 		}
-		.tophed-para span{
+		.tophed-para span {
 			position: absolute;
-			top: 350px;
-			left: 100px;
+			top: 331px;
+			left: 93px;
 			font-size: 17px;
 			color: #000000;
 			font-weight: bold;
-			line-height: 0.8;
+			line-height: 1.2;
 		}
 		.tophedimg img{
 			position: absolute;
-			top: 350px;
-			left: 10px;
+			top: 343px;
+			left: -2px;
 			width: 100px;
 		}
 		/* growth */
@@ -3991,8 +4027,8 @@
 		font-size: 23px;
 		inline-size: max-content;
 	}
-	.grwo1 p{
-		font-size: 16px;
+	.grwo1 p {
+		font-size: 12px;
 		margin-bottom: 0px;
 		margin-left: 20px;
 		inline-size: max-content;
@@ -4001,7 +4037,7 @@
 
 	.grew22 .row{
 		margin-right:calc(-42.5 * var(--bs-gutter-x));
-		width: 313px;
+		width: 298px;
 
 	}
 
