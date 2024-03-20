@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="./css/themify-icons.css" />
     <!-- Slick -->
     <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="plugins/nice-select/nice-select.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick.min.css">
     <!-- Magnific -->
     <link rel="stylesheet" href="./css/magnific-popup.css" />
     <!-- AOS -->
@@ -149,17 +152,17 @@
                      <ul class="pbmit-social-links">
                     <li class="pbmit-social-li pbmit-social-linkedin">
                       <a href="https://www.linkedin.com/in/asuttosh-mohapatra-ab6073113" target="_blank" rel="noopener">
-                        <span><i class="bi bi-linkedin"></i></span>
+                        <span style="font-size: 28px;"><i class="bi bi-linkedin"></i></span>
                       </a>
                     </li>
                     <li class="pbmit-social-li pbmit-social-twitter">
                       <a href="#" target="_blank" rel="noopener">
-                        <span><i class="pbmit-base-icon-twitter-1"></i></span>
+                        <span style="font-size: 28px;"><i class="pbmit-base-icon-twitter-1"></i></span>
                       </a>
                     </li>
                     <li class="pbmit-social-li pbmit-social-instagram">
                       <a href="#" target="_blank" rel="noopener">
-                        <span><i class="bi bi-instagram"></i></span>
+                        <span style="font-size: 28px;"><i class="bi bi-instagram"></i></span>
                       </a>
                     </li>
                   </ul>
@@ -177,21 +180,44 @@
             <div class="tophead1">
                 <div class="topheadfed">
                   <div class="tophed-title">
-                    <p>The New Logistic 
-                      Revolution</p>
+                    <p>Where Realibility Meets Innovation </p>
                   </div>
-                
+<!--                 
                   <div class="tophed-para">
                     <span>BuckleTrack, a rising star in India's supply chain sector,<br> pioneers innovative solutions and modern infrastructure,<br> reshaping the logistics landscape.</span>
                   </div>
               </div>
               <div class="tophedimg">
                 <img src="./revolution/images/pngegg.png" alt="">
-              </div>
-              <div class="pkglog" id="pkglog20" >
+              </div> -->
+              <!-- <div class="pkglog" id="pkglog20" >
                   <input type="text" placeholder="Order/Booking Number" id="bookingnum">
                   <button class="packbtn2" id="trackbtn">Track </button>
-              </div>
+                  
+              </div> -->
+              <div class="card " id="trackorder5">
+                <div class="upper">
+                    <div class="row">
+                        <div class="col-8 heading">
+                            <h5><b>Track Your Order</b></h5>
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="servv/delivery-location.jpg">
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-element">
+                            <span id="input-header">Order ID</span>
+                            <input type="text" id="order_id" placeholder="2548745588958">
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="lower">
+                    <button class="trackbtnorder">Track Order</button>
+                </div>
+                
+            </div>
             </div>
          </section>
       </div>
@@ -377,7 +403,7 @@
                       alt=""
                     />
                   </div> -->
-                  <div class="about-one_img2" id="indeximg5">
+                  <div class="about-one_img2" id="indeximg5" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine"  data-aos-once="false">
                     <img
                       src="./images/team14.png"
                       class="img-fluid"
@@ -387,7 +413,7 @@
                 </div>
               </div>
               <div class="col-md-12 col-xl-6">
-                <div class="about-one_rightbox">
+                <div class="about-one_rightbox " data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"  data-aos-once="false">
                   <div class="pbmit-heading-subheading">
                     <div class="abt1hedtitle">
                     <!-- <h4 class="pbmit-subtitle">About Us</h4> -->
@@ -604,14 +630,14 @@
                               />
                             </div>
                           </div>
-                          <div class="pbminfotech-box-content">
+                          <div class="pbminfotech-box-content" id="contware01">
                             <div class="pbminfotech-titlebox">
                               <div class="pbmit-port-cat">
                                 <a href="E-commerce.html" rel="tag"
                                   >E-commerce Logistics</a
                                 >
                               </div>
-                              <h3 class="pbmit-portfolio-title">
+                              <h3 class="pbmit-portfolio-title" id="ware30">
                                 <p >BuckleTrack's E-commerce Logistics solutions utilize cutting-edge technology to optimize supply chain operations.
                                    With advanced analytics and real-time tracking, businesses gain full visibility into logistics processes, enabling
                                     informed decision-making and enhancing efficiency.
@@ -702,7 +728,7 @@
         <!-- Ihbox Start -->
         <section class="active-onhover inbo5">
           <div class="container">
-            <div class="pbmit-heading-subheading">
+            <div class="pbmit-heading-subheading"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
               <!-- <h4 class="pbmit-subtitle">Why logistic</h4> -->
               <h2 class="pbmit-title">
                 Why BuckleTrack?
@@ -710,20 +736,20 @@
             </div>
             <div class="ihbox-section_one">
               <div class="row">
-                <article class="pbmit-miconheading-style-3 col-md-12">
+                <article class="pbmit-miconheading-style-3 col-md-12" >
                   <div class="pbmit-ihbox-style-3">
                     <div class="pbmit-ihbox-box d-flex">
-                      <div class="pbmit-ihbox-box-number katod"><img class="aanaa"
+                      <div class="pbmit-ihbox-box-number katod"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false"><img class="aanaa"
                         src="images/homepage-1/ihbox/hover-img-01.png"
                         alt=""
                       /></div>
-                      <div class="pbmit-ihbox-number">
+                      <div class="pbmit-ihbox-number"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                         <h2 class="pbmit-element-title">
                           Real-time <br />Tracking
                         </h2>
                       </div>
                       <div class="pbmit-ihbox-contents">
-                        <div class="pbmit-heading-desc">
+                        <div class="pbmit-heading-desc"  data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                           Real-time tracking enables instantaneous monitoring,
                           optimizing efficiency and enhancing decision-making
                           across logistics, transportation, safety, and various
@@ -748,17 +774,17 @@
                 <article class="pbmit-miconheading-style-3 col-md-12">
                   <div class="pbmit-ihbox-style-3">
                     <div class="pbmit-ihbox-box d-flex">
-                      <div class="pbmit-ihbox-box-number"><img  class="aanaa"
+                      <div class="pbmit-ihbox-box-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false"><img  class="aanaa"
                         src="images/homepage-1/ihbox/hover-img-02.png"
                         alt=""
                       /></div>
-                      <div class="pbmit-ihbox-number">
+                      <div class="pbmit-ihbox-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false">
                         <h2 class="pbmit-element-title">
                           Transparent <br />Pricing
                         </h2>
                       </div>
                       <div class="pbmit-ihbox-contents">
-                        <div class="pbmit-heading-desc">
+                        <div class="pbmit-heading-desc" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false">
                           Transparent pricing fosters trust and clarity,
                           providing customers with a clear understanding of
                           costs, promoting fairness, and establishing stronger
@@ -783,17 +809,17 @@
                 <article class="pbmit-miconheading-style-3 col-md-12">
                   <div class="pbmit-ihbox-style-3">
                     <div class="pbmit-ihbox-box d-flex">
-                      <div class="pbmit-ihbox-box-number"><img  class="aanaa"
+                      <div class="pbmit-ihbox-box-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false"><img  class="aanaa"
                         src="images/homepage-1/ihbox/hover-img-03.png"
                         alt=""
                       /></div>
-                      <div class="pbmit-ihbox-number">
+                      <div class="pbmit-ihbox-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false">
                         <h2 class="pbmit-element-title">
                           Warehouse <br />Storage
                         </h2>
                       </div>
                       <div class="pbmit-ihbox-contents">
-                        <div class="pbmit-heading-desc">
+                        <div class="pbmit-heading-desc" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500"  data-aos-once="false">
                           Warehouse storage involves the organized and secure
                           arrangement of goods within a facility, ensuring
                           efficient management of inventory in the supply chain.
@@ -817,17 +843,17 @@
                 <article class="pbmit-miconheading-style-3 col-md-12">
                   <div class="pbmit-ihbox-style-3">
                     <div class="pbmit-ihbox-box d-flex">
-                      <div class="pbmit-ihbox-box-number"><img  class="aanaa"
+                      <div class="pbmit-ihbox-box-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false"><img  class="aanaa"
                         src="images/homepage-1/ihbox/hover-img-04.png"
                         alt=""
                       /></div>
-                      <div class="pbmit-ihbox-number">
+                      <div class="pbmit-ihbox-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                         <h2 class="pbmit-element-title">
                           On Time <br />Delivery
                         </h2>
                       </div>
                       <div class="pbmit-ihbox-contents">
-                        <div class="pbmit-heading-desc">
+                        <div class="pbmit-heading-desc" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                           On-time delivery is a pivotal aspect of customer
                           satisfaction, ensuring goods or services reach their
                           destination promptly, meeting expectations and
@@ -852,17 +878,17 @@
                 <article class="pbmit-miconheading-style-3 col-md-12">
                   <div class="pbmit-ihbox-style-3">
                     <div class="pbmit-ihbox-box d-flex">
-                      <div class="pbmit-ihbox-box-number"><img  class="aanaa"
+                      <div class="pbmit-ihbox-box-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false"><img  class="aanaa"
                         src="images/homepage-1/ihbox/hover-img-05.png"
                         alt=""
                       /></div>
-                      <div class="pbmit-ihbox-number">
+                      <div class="pbmit-ihbox-number" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                         <h2 class="pbmit-element-title">
                           Security For <br />Cargo
                         </h2>
                       </div>
                       <div class="pbmit-ihbox-contents">
-                        <div class="pbmit-heading-desc">
+                        <div class="pbmit-heading-desc" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"  data-aos-once="false">
                           Security for cargo is paramount, involving
                           comprehensive measures to safeguard goods during
                           transportation, including tracking systems,
@@ -1008,7 +1034,7 @@
         <!-- Fid End -->
 
         <!-- Team Start -->
-        <section
+        <!-- <section
           class="pbmit-bg-color-light team_one"
           data-cursor="white-color"  
         >
@@ -1018,7 +1044,7 @@
               <div class="col-md-12 col-xl-4" >
                 <div class="team-one-left_col">
                   <div class="pbmit-heading-subheading">
-                    <!-- <h4 class="pbmit-subtitle">Explore Our Team</h4> -->
+                   
                     <h2 class="pbmit-title">
                       Meet our <span>Professionals</span> 
                     </h2>
@@ -1373,7 +1399,7 @@
             </div>
           </div>
         </div>
-        </section>
+        </section> -->
         <br /><br /><br /><br /><br /><br /><br />
         <!-- Team End -->
 
@@ -1599,7 +1625,7 @@
                     Subscribe to our <br />
                     newsletter.
                   </h6> -->
-                  <form>
+                  <!-- <form>
                     <div class="pbmit-footer-newsletter">
                       <input
                         type="email"
@@ -1608,7 +1634,7 @@
                         required=""
                       />
                     </div>
-                  </form>
+                  </form> -->
                 </div>
               </div>
             </div>
@@ -1621,11 +1647,11 @@
                 <div class="col-md-6">
                   <div class="pbmit-footer-copyright-text-area">
                     Copyright © 2024
-                    <a href="index.html">BuckleTrack Pvt.Ltd</a>, All Rights
+                    BuckleTrack Pvt.Ltd, All Rights
                     Reserved.
                   </div>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                   <div class="pbmit-footer-menu-area">
                     <ul class="pbmit-footer-menu">
                       <li class="menu-item">
@@ -1639,7 +1665,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -1848,6 +1874,7 @@
     });
 
     </script>
+    
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"

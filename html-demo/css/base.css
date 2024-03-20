@@ -43,15 +43,18 @@ INDEX:
 /*----------------------------------------*/
 /* 00 - General 
 /*----------------------------------------*/
+
+
+
 .section-lgb{
     margin-top: -77px;
 }
 
-#imgabt5{
-	margin-left: -5px;
-    width: 500px;
+#imgabt5 {
+    margin-left: -5px;
+    width: 84%;
+    border: 28px solid ;
 }
-
 
 
 html {
